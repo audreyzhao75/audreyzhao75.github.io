@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="description" content="Audrey's Portfolio">
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <ul class="nav nav-pills justify-content-center" id="navbar">  
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">My Work</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="piazzaCS.html">Piazza</a>
+                <a class="dropdown-item" href="Earbuds.html">Wired Earbuds</a>
+                <a class="dropdown-item" href="#">More to come...</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+        </li>
+    </ul>
+
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 text-center">
+                    <img src="IMG_3526.JPG" alt="A picture of me!" style="width:100%" class="rounded float-left" id="myPic">
+                    <br>
+                    <a href="https://github.com/audreyzhao75" target="_blank"><img src="gitpic.png" id="githubLogo"></a>
+                    <p>a2zhao@ucsd.edu</p>
+                </div>
+                <div class="col-8">
+                    <h1 class="display-4">Audrey Zhao</h1>
+                    <p class="lead">I'm an undergraduate junior at the University of California, San Diego
+                        pursuing a B.S. in Cognitive Science with a Specialization in Design and Interaction.</p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="row text-center">
+        <div class="col"></div>
+        <div class="col-5">
+            <div class="card" id="left1">
+                <br><br>
+                <img src="Piazza_logo.svg" class="card-img-top align-self-center mr-3" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Redesigning an online forum for STEM students to be more efficient and aesthetic</p>
+                    <a href="piazzaCS.html" class="btn btn-primary">See more</a>
+                </div>
+            </div>
+            <div class="card" id="left2">
+                <div class="card-body">
+                    <p class="card-text"><ul><b>Upcoming projects:</b>
+                        <li>Hackathon for highschoolers</li>
+                        <li> Designing a video game</li>
+                    </ul></p>
+                    <a href="#" class="btn btn-primary">Soon!</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-5">
+            <div class="card" id="right1">
+                <br>
+                <img src="earbudsThumb.png" class="card-img-top align-self-center mr-3" alt="..." id="earbudsThumb">
+                <div class="card-body">
+                    <h5 class="card-title">Wired Earbuds</h5>
+                    <p class="card-text">Finding ways to reduce wired tangles</p>
+                    <a href="Earbuds.html" class="btn btn-primary">See more</a>
+                </div>
+            </div>
+        </div> 
+        <div class="col"></div>
+    </div>
+</body>
+
+</html>

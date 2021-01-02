@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(43, 54, 59);
+    padding: 0px;
+}
+
+#navbar {
+    margin: 10px;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+ul li, ol{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#myPic {
+    margin-bottom: 20px;
+}
+
+#githubLogo {
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.card {
+    margin-bottom:30px;
+}
+
+#left1 {
+    background-color: rgb(211, 241, 250);
+}
+
+#left2 {
+    background-color: rgb(242, 185, 250);
+}
+
+#right1{
+    background-color: rgb(255, 129, 129);
+}
+
+#earbudsThumb {
+    width: 35%;
+    transform: rotate(270deg);
+}

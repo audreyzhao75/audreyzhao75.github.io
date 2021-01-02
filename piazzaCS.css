@@ -1,0 +1,68 @@
+
+/* GEN STUFF START */
+body{
+    background-color: rgb(43, 54, 59);
+}
+
+#navbar {
+    margin: 10px;
+}
+
+body img{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h4, h6, #datasheetLink{
+    margin: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+ul li, ol{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+/* GEN STUFF END */
+
+#piazzaLogo {
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#piazzaPgTop{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#incorrectTerms, #folderGIF, #dates, #PiazzaTradeOffs, #oldDesign, #PiazzaRedesign, #PiazzaRedesignGIF { 
+    width: 70%;
+    margin: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#mispelledWord, #scrollingGIF, #PainPt {
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 20px;
+}
+
+/* not working?? */
+/* #PiazzaCS {
+    margin-left: 30%;
+} */
+
+/* .row.col-10.card img{
+    margin-top: -20px;
+} */
