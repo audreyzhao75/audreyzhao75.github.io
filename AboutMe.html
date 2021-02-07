@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="description" content="Audrey's Portfolio">
+
+<head>
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="AboutMe.css">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <ul class="nav nav-pills justify-content-center" id="navbar">  
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">My Work</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="piazzaCS.html">Piazza</a>
+                <a class="dropdown-item" href="Earbuds.html">Wired Earbuds</a>
+                <a class="dropdown-item" href="#">More to come...</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">About Me</a>
+        </li>
+    </ul>
+
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-10">
+            <div class="card" id="Education">
+                <br>
+                <h1>Education</h1>
+                <h5>University of California, San Diego</h5>
+                <p>+ Bachelor of Science, Cognitive Science with a specialization in Design and Interaction</p>
+                <p>+ Minor in Computer Science</p>
+                <p>+ September 2019 - Present (Currently a Junior)</p>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                <br><br>
+            </div>
+            <div class="card" id="Skills">
+                <br>
+                <h1>Skills</h1>
+                <div class="row">
+                    <div class="col">
+                        <h5>Tools</h5>
+                        <p>+ Coding: Visual Studio Code, Eclipse</p>
+                        <p>+ Prototyping: Figma, InDesign</p>
+                        <p>+ Art: Photoshop, FireAlpaca, Krita</p>
+                        <p>+ Data Science (DS): DataHub, Streamlit</p>
+                        <p>+ Python DS: pandas, matplotlib, and others</p>
+                        <p>+ Other: GitHub, Unity</p>
+                    </div>
+                    <div class="col">
+                        <h5>Programming Languages</h5>
+                        <p>+ Java</p>
+                        <p>+ C</p>
+                        <p>+ Python</p>
+                        <p>+ HTML/CSS (with Bootstrap)</p>
+                        <p>+ JavaScript</p>
+                        <p>+ MATLAB</p>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+            <div class="card" id="Classes"><br>
+                <h1>Classes</h1>
+                <h5>Relevant Current Classes in Winter Quarter 2021</h5>
+                <div class="row">
+                    <div class="col">
+                        <p><b>CSE 170: Interaction Design</b></p>
+                        <p>Explores cognitive principles of thinking through making. 
+                            Introduces methods and tools for prototyping user experiences. Students 
+                            make various prototypes and participate in weekly critique sessions. 
+                            Topics: experience design, rapid prototyping, sketching, bodystorming, 
+                            cardboard modeling, UI hacking, and design theory.</p>
+                            <p>(HTML, CSS, JavaScript, and others)</p>
+                    </div>
+                    <div class="col">
+                        <p><b>DSGN 100: Prototyping</b></p>
+                        <p>Fundamental methods and principles for designing, implementing, and evaluating user interfaces. Topics include user-centered design, 
+                            rapid prototyping, experimentation, direct manipulation, cognitive principles, 
+                            visual design, social software, software tools. Learn by doing: Work with a team on a 
+                            quarter-long design project.</p>
+                    </div>
+                </div><br>
+                <h5>Past Relevant Classes</h5>
+                <div class="row">
+                    <div class="col">
+                        <p><b>COGS 108: Data Science in Practice</b></p>
+                        <p>Data science is multidisciplinary, covering computer science, statistics, cognitive science and psychology, data visualization, 
+                            artificial intelligence and machine learning, among others. This course teaches critical skills 
+                            needed to pursue a data science career using hands-on programming and experimental challenges.</p>
+                        <p>(Python, Python libraries, Jupter Notebook)</p>
+                    </div>
+                    <div class="col">
+                        <p><b>DSGN 1: Design of Everyday Things</b></p>
+                        <p>A project-based course examining how principles from cognitive science apply to the design of things simple (doors) and complex 
+                            (new technology). Learn about affordances, constraints, mappings, and conceptual models. Learn observational and design skills. 
+                            Become a human-centered design thinker.</p>
+                    </div>
+                </div>
+                <!-- For future additions -->
+                <!-- <div class="row">
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div> -->
+                <br><br>
+            </div>
+            <div class="card" id="InterestsAndHobbies">
+                <br>
+                <h1>Interests And Hobbies</h1>
+                <div class="row text-center">
+                    <div class="col"></div>
+                    <div class="col-5">
+                        <h5>Figure Skating</h5>
+                        <img src="AboutMeImages/skating.JPG" id="skatingImg">
+                        <h5>Music</h5>
+                        <img src="AboutMeImages/music.png" id="musicImg">
+                    </div>
+                    <div class="col-5">
+                        <h5>Hiking</h5>
+                        <img src="AboutMeImages/hiking.JPG" id="hikingImg">
+                        <h5>Snowboarding</h5>
+                        <img src="AboutMeImages/snowboarding.JPG" id="snowboardingImg">
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <h5 id="iahmm">And much more!</h5>
+                <br>
+                <div class="row">
+                    
+                </div>
+                <br>
+            </div>
+        </div>
+        <div class="col"></div>
+    </div>
+
+
+
+</body>

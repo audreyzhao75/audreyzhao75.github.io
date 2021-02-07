@@ -5,7 +5,11 @@ body{
 }
 
 #navbar {
-    margin: 10px;
+    margin: 20px;
+}
+
+#navbarBottom{
+    margin: 40px;
 }
 
 body img{
@@ -27,6 +31,7 @@ p, h1, h4, h6, #datasheetLink{
 ul li, ol{
     margin-left: 25px;
     margin-right: 25px;
+    margin-bottom: 10px;
 }
 /* GEN STUFF END */
 
