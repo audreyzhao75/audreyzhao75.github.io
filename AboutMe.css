@@ -1,9 +1,17 @@
 body{
-    background-color: rgb(43, 54, 59);
+    background-color: rgb(44, 44, 44);
 }
 
 #navbar {
     margin: 20px;
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+.nav-link:hover{
+    color: rgb(0, 169, 247);
 }
 
 #navbarBottom{

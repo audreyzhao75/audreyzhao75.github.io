@@ -1,7 +1,7 @@
 
 /* GEN STUFF START */
 body{
-    background-color: rgb(43, 54, 59);
+    background-color: rgb(59, 72, 104);
 }
 
 #navbar {
@@ -10,6 +10,14 @@ body{
 
 #navbarBottom{
     margin: 40px;
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+.nav-link:hover{
+    color: rgb(0, 169, 247);
 }
 
 body img{

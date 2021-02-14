@@ -1,10 +1,20 @@
 body{
-    background-color: rgb(43, 54, 59);
+    background-color: rgb(44, 44, 44); 
     padding: 0px;
+    /* background-color: rgb(43, 54, 59);  */
+    /* rgb(43, 54, 59) */
 }
 
 #navbar {
     margin: 20px;
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+.nav-link:hover{
+    color: rgb(0, 169, 247);
 }
 
 .row{
@@ -36,22 +46,33 @@ ul li, ol{
 
 .card {
     margin-bottom:30px;
+    filter: drop-shadow(7px 7px 4px #000000);
+    color: aliceblue;
+}
+
+.card-text {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 #left1 {
-    background-color: rgb(164, 229, 245);
+    background-color: rgb(151, 199, 211);
+    /* border-color: rgb(178, 204, 211); */
+    /* rgb(119, 187, 204); */
+    /* (164, 229, 245); */
 }
 
 #left2 {
-    background-color: rgb(203, 155, 243);
+    background-color: rgb(198, 163, 219);
 }
 
 #right1{
-    background-color: rgb(134, 173, 255);
+    background-color: rgb(59, 72, 104);
+    height: 94.5%;
 }
 
 #earbudsThumb {
-    width: 35%;
+    width: 43%;
     transform: rotate(270deg);
 }
 
