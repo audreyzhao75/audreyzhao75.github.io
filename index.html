@@ -7,14 +7,25 @@
     <title>Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/navbar.css">
     <link rel="stylesheet" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    #stars
+    #stars2
+    #stars3
+    #title
+    %span
+        PURE CSS
+    %br
+    %span
+        PARALLAX PIXEL STARS
 </head>
 
 <body>
     <!-- nav bar -->
-    <ul class="nav nav-pills justify-content-center" id="navbar">  
+    <ul class="fixed-top nav nav-pills justify-content-center" id="navbar">  
         <li class="nav-item">
             <a class="nav-link active" href="#">Home</a>
         </li>
@@ -23,6 +34,7 @@
             <div class="dropdown-menu">
                 <a class="dropdown-item" href="piazzaCS.html">Piazza</a>
                 <a class="dropdown-item" href="Earbuds.html">Wired Earbuds</a>
+                <a class="dropdown-item" href="/caseStudies/WePet.html">WePet</a>
                 <a class="dropdown-item" href="#">More to come...</a>
             </div>
         </li>
@@ -32,7 +44,7 @@
     </ul>
 
     <!-- jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
+    <div class="top jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
                 <div class="col-4 text-center">
@@ -62,36 +74,61 @@
     </div>
 
     <!-- Cards -->
-    <div class="row text-center">
+    <div class="row allCards text-center">
         <div class="col"></div>
-        <div class="col-5">
-            <div class="card" id="left1">
-                <br><br>
-                <img src="indexImages/Piazza_logo.svg" class="card-img-top align-self-center mr-3" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Redesigning an online forum to be more efficient and aesthetic for students</p>
-                    <a href="piazzaCS.html" class="btn btn-primary">See more</a>
+        <div class="col-3">
+            <div class="card" id="wepetCase">
+                <div class="row card-img">
+                    <img src="images/corgi.png" class="card-img-top align-self-center mr-3" alt="pic of corgi :)" id="wepetThumb">
                 </div>
+                <div class="card-body">
+                    <h4>WePet</h4>
+                    <p>A mobile app that lets users create and find events for pet adoptions, socializations, and more!</p>
+                </div>
+                <a href="caseStudies/WePet.html" class="btn btn-primary">See more</a>
             </div>
-            <div class="card" id="left2">
-                <div class="card-body">
-                    <p class="card-text"><b>Upcoming projects:</b>
-                        <p>Hackathon for highschoolers</p>
-                        <p>Prototyping a pet adoption app</p>
-                        <p> Designing a video game</p>
-                    </p>
-                    <a href="#" class="btn btn-primary">Soon!</a>
+            <div class="card" id="TwitterMisinfo">
+                <div class="row card-img">
+                    <img src="indexImages/twittLogo.png" class="card-img-top align-self-center mr-3" alt="..." id="twitterTmb">
                 </div>
+                <div class="card-body">
+                    <h4>Twitter</h4>
+                    <p>Making a prototype that dissuades misinformation and promotes discussion on Twitter</p>
+                </div>
+                <a href="twitterMisinfo.html" class="btn btn-primary">Under Construction</a>
             </div>
         </div>
-        <div class="col-5">
-            <div class="card" id="right1">
-                <br><br><br>
-                <img src="indexImages/earbudsThumb.png" class="card-img-top align-self-center mr-3" alt="..." id="earbudsThumb">
-                <div class="card-body">
-                    <p class="card-text">Seeking solutions and exploring designs to reduce tangles in wired earbuds</p>
-                    <a href="Earbuds.html" class="btn btn-primary">See more</a>
+        <div class="col-3">
+            <div class="card" id="earbudCase">
+                <div class="row card-img">
+                    <img src="indexImages/earbudsThumb.png" class="card-img-top align-self-center mr-3" alt="..." id="earbudsThumb">
                 </div>
+                <div class="card-body">
+                    <h4>Wired Earbuds</h4>
+                    <p>Seeking solutions and exploring designs to reduce tangles in wired earbuds</p>
+                </div>
+                <a href="Earbuds.html" class="btn btn-primary">See more</a>
+            </div>
+            <div class="card" id="unfinishedCase">
+                <div class="card-body">
+                    <p class="card-text"><b>Upcoming projects:</b>
+                        <p>- Hackathon for highschoolers</p>
+                        <p>- Designing a video game</p>
+                    </p>
+                </div>
+                <!-- <a href="#" class="btn btn-primary">Soon!</a> -->
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card" id="piazzaCase">
+                <div class="row card-img">
+                    <img src="indexImages/Piazza_logo.svg" preserveAspectRatio="xMidYMin" class="card-img-top align-self-center mr-3" alt="..." id="piazzaThumb">
+                </div>
+                <div class="card-body">
+                    <h4>Piazza</h4>
+                    <p>Redesigning an online forum to be more efficient and aesthetic for students</p>
+                </div>
+                <a href="piazzaCS.html" class="btn btn-primary">See more</a>
             </div>
         </div> 
         <div class="col"></div>

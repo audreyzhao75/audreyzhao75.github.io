@@ -1,0 +1,170 @@
+body{
+    background-color: rgb(44, 44, 44); 
+    padding: 0px;
+}
+
+/* =============== GENERAL =============== */
+
+.jumbotron {
+    padding: 5%;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* =============== TOP =============== */
+
+.containerCase {
+    margin-top: 7%;
+}
+
+.banner{
+    width:100%;
+}
+
+.section{
+    padding: 8%;
+}
+
+.top {
+    text-align: center;
+    color:rgb(54, 54, 54);
+    background-color: rgb(178, 209, 245);
+}
+
+.sectionTitle{
+    text-align:center;
+    margin-bottom: 8%;
+}
+
+#topText{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: .4cm;
+}
+
+#note {
+    margin-top: 3%;
+    font-size: .25cm;
+}
+
+/* ================== Intro ================== */
+
+.Introduction {
+    color:rgb(59, 59, 59);
+    background-color: aliceblue;
+}
+
+#popcorn {
+    width: 80%;
+}
+
+.popPhoto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.content {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.subsection {
+    margin-bottom: 5%;
+}
+
+.lastsub {
+    margin-bottom: 2%;
+}
+
+/* ========== Stage 1: Iterating on Ideas ========== */
+
+.stage1 {
+    background-color: rgb(235, 210, 173);
+}
+
+#storyboard {
+    filter: brightness(115%);
+    border: 5px solid rgb(144, 185, 120);
+}
+
+#p1-1 {
+    width: 64%;
+    float: left;
+}
+
+#p1-2 {
+    width: 36%;
+    float: left;
+}
+
+.section1proto {
+    filter: brightness(100%);
+    border-radius: 0px;
+}
+
+.wiref {
+    width: 46%;
+    float: left;
+    margin: 2%;
+}
+
+.results {
+    border: 5px solid rgb(211, 125, 125);
+}
+
+.search {
+    border: 5px solid rgb(132, 204, 226);
+}
+
+/* #iter{
+    background-color: aliceblue;
+    padding: 2%;
+} */
+
+/* ========== Stage 2: Implementation ========== */
+
+.stage2 {
+    background-color: rgb(202, 202, 202);
+}
+
+/* ========== Final Design ========== */
+
+#noteColor {
+    margin-bottom: 3%;
+}
+
+.Final {
+    background-color: pink;
+}
+
+.GIF {
+    text-align: center;
+}
+
+#AttendingGIF, #messagesGIF {
+    border-radius: 15px;
+    border: 5px solid rgb(54, 54, 54);
+    width: 174px;
+    height: 300px;
+}
+
+#finalIterPhones {
+    width: 120%;
+    margin-left: -13%;
+}
+
+#finalVisuals {
+    text-align: center;
+}
+
+#fpText {
+    margin-left: -6%;
+}
+
+/* Other */
+#btmBtn {
+    text-align: center;
+}

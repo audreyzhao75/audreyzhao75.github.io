@@ -2,17 +2,13 @@ body{
     background-color: rgb(44, 44, 44);
 }
 
-#navbar {
-    margin: 20px;
+/* =============== NAV =============== */
+
+#top {
+    margin-top: 9%;
 }
 
-.nav-link{
-    color: aliceblue;
-}
-
-.nav-link:hover{
-    color: rgb(0, 169, 247);
-}
+/* =============== GENERAL =============== */
 
 #navbarBottom{
     margin: 40px;
@@ -24,10 +20,6 @@ body img{
     margin-bottom: 10px;
 }
 
-.row{
-    margin: 0;
-    padding: 0;
-}
 .card{
     margin-bottom: 20px;
     background-color:ghostwhite;
@@ -43,11 +35,10 @@ h1 {
     color:rgb(21, 104, 187);
 }
 
-p, ul li, ol{
-    margin-left: 35px;
-    margin-right: 35px;
+p {
+    margin-left: 25px;
+    margin-right: 25px;
     margin-top: 0px;
-    margin-bottom: 0px;
 }
 
 #skatingImg, #hikingImg, #musicImg, #snowboardingImg {

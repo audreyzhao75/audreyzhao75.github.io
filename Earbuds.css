@@ -4,31 +4,18 @@ body{
     background-color: rgb(59, 72, 104);
 }
 
-#navbar {
-    margin: 20px;
+/* =============== NAV BAR =============== */
+
+.top {
+    margin-top: 10%;
 }
 
-#navbarBottom{
-    margin: 40px;
-}
-
-.nav-link{
-    color: aliceblue;
-}
-
-.nav-link:hover{
-    color: rgb(0, 169, 247);
-}
+/* ================= MAIN ================ */
 
 body img{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.row{
-    margin: 0;
-    padding: 0;
 }
 
 p, h1, h3, h6, #datasheetLink{
@@ -43,11 +30,6 @@ h5{
     margin-bottom: -5px;
 }
 
-ul li, ol{
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 10px;
-}
 /* GEN STUFF END */
 
 .img {

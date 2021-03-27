@@ -1,31 +1,33 @@
 body{
     background-color: rgb(44, 44, 44); 
     padding: 0px;
+    min-width: 40%;
     /* background-color: rgb(43, 54, 59);  */
     /* rgb(43, 54, 59) */
 }
 
-#navbar {
-    margin: 20px;
+/* =============== GENERAL =============== */
+
+.top {
+    margin-top: 5%;
 }
 
-.nav-link{
-    color: aliceblue;
+.btn {
+    background-color: rgb(185, 30, 30);
+    border-color: rgb(185, 30, 30);
+    /* dark blue (24, 75, 168) */
+}
+.btn:hover {
+    background-color: rgb(230, 52, 52);
+    border-color: rgb(240, 56, 56);
 }
 
-.nav-link:hover{
-    color: rgb(0, 169, 247);
+img {
+    /* margin-top: auto;
+    margin-bottom: auto;  */
 }
 
-.row{
-    margin: 0;
-    padding: 0;
-}
-
-ul li, ol{
-    margin-left: 25px;
-    margin-right: 25px;
-}
+/* =============== JUMBOTRON =============== */
 
 #myPic {
     margin-bottom: 20px;
@@ -44,10 +46,23 @@ ul li, ol{
     margin-left: 7px;
 }
 
+/* =============== CASE STUDIES =============== */
+
 .card {
     margin-bottom:30px;
     filter: drop-shadow(7px 7px 4px #000000);
     color: aliceblue;
+    padding: 3%;
+    height: 43%;
+}
+
+.card-img {
+    padding: 0%;
+    height: 25%;
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-bottom: 10%;
 }
 
 .card-text {
@@ -55,33 +70,67 @@ ul li, ol{
     margin-right: 15px;
 }
 
-#left1 {
-    background-color: rgb(151, 199, 211);
+.card-body {
+    height: 30%;
+}
+
+/* piazza */
+#piazzaCase {
+    background-color: rgb(157, 209, 223);
     /* border-color: rgb(178, 204, 211); */
     /* rgb(119, 187, 204); */
     /* (164, 229, 245); */
 }
 
-#left2 {
-    background-color: rgb(198, 163, 219);
+#piazzaThumb {
+    top: 50%;
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 6%;
 }
 
-#right1{
+/* unfinished */
+#unfinishedCase {
+    background-color: rgb(198, 163, 219);
+    text-align: left;
+}
+
+/* earbuds */
+#earbudCase {
     background-color: rgb(59, 72, 104);
-    height: 94.5%;
 }
 
 #earbudsThumb {
-    width: 43%;
+    /* margin-top: 13%; */
+    width: 45%;
     transform: rotate(270deg);
 }
 
-.btn {
-    background-color: rgb(185, 30, 30);
-    border-color: rgb(185, 30, 30);
-    /* dark blue (24, 75, 168) */
+/* WePet */
+#wepetCase {
+    background-color: pink;
 }
-.btn:hover {
-    background-color: rgb(230, 52, 52);
-    border-color: rgb(240, 56, 56);
+
+#wepetThumb {
+    width: 60%;
+}
+
+/* Twitter */
+#TwitterMisinfo {
+    background-color: #1DA1F2;
+    text-align: center;
+}
+
+#twitterTmb {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 50%;
+    margin-left: 8%;
+    margin-right: auto;
+    filter: invert(1);
+}
+
+.allCards {
+    margin-bottom: 5%;
 }
