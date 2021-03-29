@@ -20,6 +20,11 @@ img {
     margin-top: 7%;
 }
 
+.topAd {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .banner{
     width:100%;
 }
@@ -47,7 +52,7 @@ img {
 
 #note {
     margin-top: 3%;
-    font-size: .25cm;
+    font-size: .2cm;
 }
 
 /* ================== Intro ================== */
