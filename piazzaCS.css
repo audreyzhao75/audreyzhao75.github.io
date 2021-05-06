@@ -7,12 +7,6 @@ body{
 
 /* =============== GENERAL =============== */
 
-.top {
-    margin-top: 10%;
-}
-
-/* =============== GENERAL =============== */
-
 #navbarBottom{
     margin: 40px;
 }
@@ -36,6 +30,7 @@ p, h1, h4, h6, #datasheetLink{
     width: 90%;
     position: relative;
     margin: auto;
+    margin-top: 150px;
     margin-bottom: 2%;
 }
 

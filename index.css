@@ -8,11 +8,6 @@ body{
 
 /* =============== GENERAL =============== */
 
-.top {
-    margin-top: 5%;
-    margin-bottom: -1%;
-}
-
 .btn {
     background-color: rgb(185, 30, 30);
     border-color: rgb(185, 30, 30);
