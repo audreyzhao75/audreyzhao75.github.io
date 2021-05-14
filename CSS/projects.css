@@ -14,6 +14,10 @@ img {
     border-radius: 15px;
 }
 
+li, b {
+    font-size: 0.4cm;
+}
+
 .containerCase {
     margin-top: 79px;
 }
@@ -39,6 +43,10 @@ img {
 
 .titleTopSpace {
     margin-top: 5%;
+}
+
+.removeSpace {
+    margin-bottom: 1%;
 }
 
 /* --------------------------------------- */
@@ -142,6 +150,10 @@ img {
     border: 5px solid rgb(132, 204, 226);
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
 /* #iter{
     background-color: aliceblue;
     padding: 2%;
@@ -262,7 +274,7 @@ img {
 
 /* -------- Top --------- */
 #TwitterTop{
-    background-color: #1da1f2;
+    background-color: #05151f;
     color: #fafafa;
 }
 
@@ -276,7 +288,7 @@ img {
 #twittLogo {
     /* https://codepen.io/sosuke/pen/Pjoqqp */
     /* hex: #1da1f2 */
-    width: 90%;
+    width: 90px;
     filter: invert(46%) sepia(90%) saturate(733%) hue-rotate(172deg) brightness(97%) contrast(96%);
 }
 
@@ -297,7 +309,7 @@ img {
 } */
 
 .persona {
-    width: 70%;
+    width: 90%;
 }
 
 #storyboardTwt {
@@ -312,6 +324,7 @@ img {
 
 #Twitter-S4{
     background-color: #1da1f2;
+    color: #fafafa;
 }
 
 #hifiV1 {
