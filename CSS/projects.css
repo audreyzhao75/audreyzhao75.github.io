@@ -19,7 +19,7 @@ li, b {
 }
 
 .containerCase {
-    margin-top: 79px;
+    margin-top: 78px;
 }
 
 .section{
@@ -237,6 +237,7 @@ li, b {
     margin-bottom: 10px;
     border-style: outset;
     border-color: #676768;
+    width: 90%;
 }
 
 /* ----- Section 2 ------ */
@@ -249,9 +250,14 @@ li, b {
     margin-bottom: 7%;
 }
 
-/* #piazzaTradeoffImg {
-    width: 100%;
-} */
+#tradeoffs {
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+#piazzaTradeoffImg {
+    width: 50%;
+}
 
 /* ----- Section 3 ------ */
 
@@ -260,9 +266,9 @@ li, b {
     /* background-color: #7fb2db; */
 }
 
-/* #paintPtPiazza {
-    width: 50%;
-} */
+#PRGIF {
+    width: 80%;
+}
 
 #PiazzaRedesign {
     width: 80%;

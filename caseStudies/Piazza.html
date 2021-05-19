@@ -40,103 +40,156 @@
             </div>
         </div>
         <div class="row section" id="Piazza-S1">
-            <div class="col-5" id="Piazza-intro">
-                <h2 class="">Overview</h2>
-                <ul>
-                    <li>Timeline: Winter 2020</li>
-                    <li>Team: </li>
-                    <li>Roles: </li>
-                </ul>
-                <p>Maybe a brief About</p>
-                <h2 class="">Background</h2>
-                <p>text</p>
-                <h2 class="">Problem Statement</h2>
-                <p>text</p>
-            </div>
-            <div class="col-7 colCenter text-center">
-                <img id="piazzaRedesignTop" src="../PiazzaImages/oldDesign.png">
-                <b>What it looks like now!</b>
+            <div class="col">
+                <div class="row">
+                    <div class="col colCenter text-center">
+                        <img id="piazzaRedesignTop" src="PiazzaImages/PiazzaRedesign.jpg">
+                        <br>
+                        <b>Our Redesign!</b>
+                    </div>
+                </div>
+                <div class="col titleTopSpace" id="Piazza-intro">
+                    <h2 class="">Overview</h2>
+                    <ul>
+                        <li><b>Timeline:</b> 3 weeks during Winter 2020</li>
+                        <li><b>Team:</b> Jennifer Pham, Ishaan Bose, Ethan Lan, Audrey Zhao</li>
+                        <li><b>Roles:</b> Researcher, Designer</li>
+                    </ul>
+                    <h2 class="">Background</h2>
+                    <p>You want to find the answers to your questions about your current class as quickly as possible, so you turn to your online forum, Piazza, for the class. 
+                        You try to search and scroll for the posts that possibly contain the answer, but there’s too much information and too many confusing features that you completely miss those posts!</p>
+                    <p>Piazza is an online forum that is commonly found in STEM classes. My teammates and I have relied on the platform to find answers or post questions. However,
+                        we all have run into problems when interacting with the features and layout of Piazza. We found that it’s compact interface leads to confusing and disorganized features.
+                        The platform offers many different ways for users to search for information, but most of them are not utilized or even noticed.</p>
+                    <h2 class="">Problem Statement</h2>
+                    <p>With confusing label placements and sorting features, Piazza may give both students and instructors difficulty finding the answers to their questions, which can then lead to post redundancy and searching inefficiency. </p>
+                </div>
+                <div class="row titleTopSpace">
+                    <div class="col colCenter text-center">
+                        <img id="piazzaRedesignTop" src="PiazzaImages/oldDesign.png">
+                        <br>
+                        <b>The current version!</b>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row section" id="Piazza-S2">
             <div class="col">
                 <h2>Into the Wild: User Research</h2>
-                <p>text</p>
+                <p>We first needed some insight on users’ interactions, needs, and frustrations with Piazza. We went to popular 
+                    spots on campus and asked people to perform tasks on Piazza.</p>
+                <p>More specifically, we went around the UCSD campus and surrounding areas and interviewed 15 students and faculty. 
+                    We first gathered some demographic information such as major, year, and Piazza proficiency level. 
+                    Next, we handed them a laptop that’s open to a specific post in our Design 1 Piazza. 
+                    We then asked them to find certain information as if they were a student in the class. 
+                    We recorded the time until they provided some answer. We stopped the timer when they provided the expected answer, 
+                    “I don’t know”, or “I’ll make a post”.</p>
+
                 <h2>What did we find?</h2>
-                <p id="PiazzaInsights">text</p>
-                <div class="row subsection">
+                <p>By observing the actions and answers from the interviewees, we discovered there were actually a lot of issues 
+                    with Piazza features! Let’s step through these problems below.</p>
+                <br><hr>
+                <div class="row subsection titleTopSpace">
                     <div class="col colCenter">
-                        <img src="../PiazzaImages/incorrectTerms.png">
+                        <img src="PiazzaImages/incorrectTerms.png">
                     </div>
                     <div class="col">
-                        <h5 class="titleTopSpace">Subsection 1: Search</h5>
-                        <p>text</p>
+                        <h5>Incorrect Terms and Typos in the Search Bar</h5>
+                        <p>If the user were to input something with similar or wrong spelling, relevant or desired posts may not appear. 
+                            So the user would have to have precise spelling/keywords. This issue could hinder search flow and efficiency. 
+                            In the figure to the left, there is a one character difference (space vs. dash) between the search terms. 
+                            The results were very different: the “dash” search leads to results, but “space” dash leads to no results.</p>
                     </div>
                 </div>
-                <div class="row subsection">
+                <hr>
+                <div class="row subsection titleTopSpace">
                     <div class="col">
-                        <h5 class="titleTopSpace">Subsection 2: Folders</h5>
-                        <p>text</p>
-                    </div>
-                    <div class="col colCenter">
-                        <img src="../PiazzaImages/folderGIF.gif">
-                    </div>
-                </div>
-                <div class="row subsection">
-                    <div class="col colCenter">
-                        <img src="../PiazzaImages/scrollingGIF.gif">
-                    </div>
-                    <div class="col">
-                        <h5 class="titleTopSpace">Subsection 3: Scrolling</h5>
-                        <p>text</p>
-                    </div>
-                </div>
-                <div class="row subsection">
-                    <div class="col">
-                        <h5 class="titleTopSpace">Subsection 4: Dates</h5>
-                        <p>text</p>
+                        <h5>Unseen and Unused Folders</h5>
+                        <p>There is a feature at the top of Piazza that I personally had not noticed for a long time: the folders feature. 
+                            The folders are created by the instructors to place relevant information and posts together. This feature is meant to help users 
+                            better search for relevant information. However, as shown in the zoomed-in GIF to the right, when the mouse hovers over one of 
+                            the folders labeled “project_1”, the text color changes only slightly. The same happens for the other labels.</p>
+                        <p>My team thought that the feature did not have a clear signifier to its existence. We figured that a feature that can increase search efficiency 
+                            should be more visible to users.</p>
                     </div>
                     <div class="col colCenter">
-                        <img src="../PiazzaImages/dates.png">
+                        <img src="PiazzaImages/folderGIF.gif">
                     </div>
                 </div>
-                <div class="row titleTopSpace">
-                    <div class="col">
-                        <h2>Trade-offs</h2>
-                        <p>text</p>
+                <hr>
+                <div class="row subsection titleTopSpace">
+                    <div class="col colCenter">
+                        <img src="PiazzaImages/scrollingGIF.gif">
                     </div>
                     <div class="col">
-                        <img id="piazzaTradeoffImg" src="../PiazzaImages/piazzaTradeoffs.png">
+                        <h5>Too Much Scrolling!</h5>
+                        <p>Below the search bar, there’s a section where the users can scroll through posts by the date and time posted. 
+                            The posts are very close together, and if there are a lot of posts, the user may not be able to pick up all the information shown in the previews. 
+                            Therefore, they may skip over desired posts, leading to search inefficiency.</p>
+                        <p>In fact, most of the interviewes did not utilize this feature. Instead, they opted to use the search bar (but that also has it's own problems as I described before).</p>
                     </div>
                 </div>
+                <hr>
+                <div class="row subsection titleTopSpace">
+                    <div class="col">
+                        <h5>Subsection 4: Dates</h5>
+                        <p>Posts on Piazza have certain sections that date when the post was made or updated. However, specific dates are not shown on the post page itself. 
+                            Instead, they show that the post was made or updated “X days ago” at the bottom right. There’s an additional date section on each post preview in the scroll section. In the picture to the right, 
+                            the red rectangles indicate where the posts are dated.</p>
+                        <p>Interviewees seemed to have a difficult time when determining specific dates. Because the text is fairly small and off to the side, we figured that users are more unlikely to look at them when reading through the contents of the post. 
+                            In addition, if the post was made within a week of the current date, the boxed area on the left would be labelled by the day of the week (Monday, Tues, etc.) 
+                            rather than by month/day/year. We thought that this inconsistency in the form of dates would be very confusing to the user.</p>
+                    </div>
+                    <div class="col colCenter">
+                        <img src="PiazzaImages/dates.png">
+                    </div>
+                </div>
+                <hr>
+                <h2 class="titleTopSpace">Insights</h2>
+                <p>When users came across these problems, they became frustrated as their time felt wasted. 
+                    An online forum should allow users to efficiently and quickly find the answers to their questions.</p>
+
+                <h2 class="titleTopSpace">Trade-offs</h2>
+                <p>Before we moved to the actual redesign of the platform, we considered the trade-offs that Piazza would have. We wanted efficiency to be our main focus, but we also had to consider aesthetic and number of features.</p>
+                <div class="text-center titleTopSpace">
+                    <img id="piazzaTradeoffImg" src="PiazzaImages/piazzaTradeoffs.png">
+                </div>
+                <h5 class="titleTopSpace">Aesthetic versus Efficiency</h5>
+                <p>Piazza as a website is not the most aesthetically pleasing. Piazza presents a lot of text and information on the page at once, rather than taking a more aesthetic approach to it, like using minimalism. 
+                    Minimalism is often aesthetically pleasing and easy to use, because it lets the user engage with the product at the core level rather than clustering it with too much info at once. In other words, 
+                    this plays into the trade-off signifiers versus cognitive load - showing more things can be easier for the user, but overload them with information, making the design worse. On the other hand, 
+                    the appearance or aesthetic of the website can also have a role in affecting the efficiency, which indicates how quickly a user can find what they are looking for, as a certain design will have different signifiers and affordances. 
+                    For example, as we described before, Piazza has some weak signifiers to the folders feature. If the folders could help users more efficiently search for the desired information, their appearance/aesthetic should be able to draw the user's attention.</p>
+                <h5>Features versus Efficiency</h5>
+                <p>This trade off was primarily oriented towards the user search capabilities, and navigation as a whole. Making the application highly efficient makes it easy to use, and gets the user what they want right away, which is always a desirable outcome for overall user experience. 
+                    However, features and the complexity that it comes with, while negative in its connotation, is implicit in the addition of capabilities that can directly improve user experience and keep a product sustainable. </p>
+                <p>In the current market, improvement and iterating upon a product is essential to remaining relevant and continue to be consumed. With a lack of new and updated features, convincing new users to join the service can be hard, which is why most companies yield to the “featuritis” problem mentioned by Don Norman in chapter 7 of his book, 
+                    “Design of Everyday Things.” This clash occurs in Piazza, with Piazza going towards more complexity than minimalism in terms of features, as shown by the variety of links, breadcrumbs, and filter options that are shown on the front page. This allows the user to tailor their search experience to their needs, 
+                    but also introduces a sense of clutter that proved to confuse new users, as shown by our data when none of the new users tried the category or folder functions, or tried to distinguish using the pinned posts. This can be why complexity and clutter of features is often a negative aspect when considering a product, 
+                    because designing for the vast majority is usually the goal.</p>
             </div>
         </div>
         <div class="row section" id="Piazza-S3">
             <div class="col">
                 <h2>The Redesign</h2>
-                <!-- grainy as well... -->
-                <!-- <img id="paintPtPiazza" src="../PiazzaImages/PainPt.png"> -->
-                <p>text</p>
-                <div class="text-center"><img id="PiazzaRedesign" src="../PiazzaImages/PiazzaRedesign.jpg"></div>
-                <!-- super grainy right now, redo? -->
-                <!-- <img src="../PiazzaImages/PiazzaRedesignGIF.gif"> -->
-                <p class="titleTopSpace">text</p>
+                <p>Once we gathered and analyzed the data from the interviews and our observations, we moved to Figma to build our redesign. The final design is show below!</p>
+                <div class="text-center titleTopSpace"><img id="PiazzaRedesign" src="PiazzaImages/PiazzaRedesign.jpg"></div>
+                <p class="titleTopSpace">
+                    While retaining the colors and general website structure of Piazza, we redesigned the aesthetic and layout of the features. The general post and font size were increased in the scrolling bar on the left.
+                    When you click on a post, the page displays the content, modified date labels, and a new feature: a 'Related Posts' section. This section was created as a way to help search efficiency. 
+                    Perhaps a student may land on this page but want to see similar posts or did not find the answer in the current post. This section can help increase post-finding efficiency.
+                </p>
+                <p>The folders feature is also made more visible, with blue and enlargened signifiers. You can view how it works in the GIF below!</p>
                 <br><br>
-                <div class="row titleTopSpace">
-                    <div class="col-8">
-                        <video width="100%" controls>
-                            <source src="PiazzaImages/piazzaRedesignVID.mov" type="video/mp4">
-                            <source src="PiazzaImages/piazzaRedesignVID.mov" type="video/ogg">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <div class="col">
-                        <p>text</p>
-                    </div>
+                <div class="text-center">
+                    <img id="PRGIF" src="PiazzaImages/PiazzaRedesign.gif">
                 </div>
 
                 <h2 class="titleTopSpace">The End!</h2>
-                <p>text</p>
+                <p>And that's our redesign of Piazza! In this project, we focused heavily on conducting and analyzing user research. These observations and interpretations really helped us understand our audience and ways to improve the interface.
+                    Through our redesign, we made question-asking and finding flow more efficient, information redundancy across posts is minimized, and possible feature are clearly identifiable.
+                </p>
+                <p>Thanks for reading! If you have any questions, I'd love to talk! </p>
             </div>
         </div>
     </div>
