@@ -36,14 +36,26 @@
     <div class="containerCase">
         <!-- Top -->
         <div class="row section" id="TwitterTop">
-            <div class="col caseTitle">
-                <h1 id="topTwt">Misinformation on Twitter</h1>
-                <!-- <img id="twittLogo" src="../indexImages/twittLogo.png"> -->
+            <div class="col-4 caseTitle text-left">
+                <h1 id="topTwt">Misinformation on Twitter</h1><br>
+            </div>
+            <div class="col-8 colCenter text-center">
+                <img id="finalPoster" src="TwitterImages/twitterFinalProto.png" alt="Screens of my final prototype">
             </div>
         </div>
+        <!-- <svg id="waveTwt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#05151f" fill-opacity="1" d="M0,224L48,186.7C96,149,192,75,288,48C384,21,480,43,576,85.3C672,128,768,192,864,186.7C960,181,1056,107,1152,112C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+          </svg> -->
         <!-- Section 1: Intro -->
         <div class="row section" id="TwitterIntro">
             <div class="col">
+                <!-- <h2 class="titleTopSpace">Overview</h2> -->
+                <div id="overviewTwt" class="col-5">
+                    <p class="removeSpace"><b>Timeline:</b> Februrary - March (6 weeks)</p>
+                    <p class="removeSpace"><b>Design Tools:</b> Figma, Invision</p>
+                    <p class="removeSpace"><b>Group:</b> Yada Chuengsatiansup, Daniel Wang, Angela Quiambao, Audrey Zhao</p> 
+                    <p class="removeSpace"><b>Roles:</b> Designer, Interviewer</p>
+                </div><br><br>
                 <h2>Summary</h2>
                 <p>As a group of four, my team decided to study and tackle the problem of misinformation on social media. 
                     We analyzed online discussions, user interviews, and competitive analyses about misinformation on 
@@ -65,18 +77,6 @@
                 <p>Social media is a great way to access news and information in real-time, 
                     but it could come with the risk of misinformation and inability to escape echo chambers and previous viewpoints.</p>
             </div>
-            <div class="col text-center">
-                <img src="TwitterImages/twitterFinalProto.png">
-                <!-- <img id="twittLogo" src="../indexImages/twittLogo.png"> -->
-                <br><br>
-                <div class="text-left">
-                    <h2 class="titleTopSpace">Overview</h2>
-                    <p class="removeSpace"><b>Timeline:</b> Februrary - March (6 weeks)</p>
-                    <p class="removeSpace"><b>Group:</b> Yada Chuengsatiansup, Daniel Wang, Angela Quiambao, Audrey Zhao</p>
-                    <p class="removeSpace"><b>Design Tools:</b> Figma, Invision</p>
-                    <p class="removeSpace"><b>Roles:</b> Designer, Interviewer</p>
-                </div>
-            </div>
         </div>
         <!-- Section 2:  -->
         <div class="row section" id="Twitter-S2">
@@ -90,30 +90,32 @@
                 <p>We wanted to go into the "online field" to observe insights on how people deal with misinformation online.
                     We first went to online platforms, like Reddit threads r/QAnonCasualties, r/technology, and r/Keep_Track, to see what others had observed and debated.
                     We read about personal stories and debates on how misinformation on social media affects those around us. From these posts, we discerned that misinformation can influence people's
-                    political opinions and morals depending on the amount of misinformation regulation.
-                    </p>
-                    <p>
-                    From online resources, we observed that different online communities that discuss misinformation have different methods of sharing and debating information. 
-                    On platforms like Facebook, Reddit, Twitter, and YouTube, users mostly interact under posts and comments, which often involve statements, 
-                    arguments, and/or references to sources. These communities also have varying degrees of interaction around discussing and debating misinformation, where likes/votes/replies often 
-                    indicate their agreement/disagreement with certain comments. Fact checking is often a community effort between the users. Although some platforms attempt 
-                    to fact check and flag posts, these interventions does not seem to receive as much attention from the users. Instead, the topic of dissuading and regulating misinformation
-                    often go to the platform's ethics and responsibilities.
+                    political opinions and morals depending on the amount of misinformation regulation. From online resources, we observed that different online communities that discuss misinformation have different methods of sharing and debating information. </p>
+                    <ul>
+                        <li>On platforms like Facebook, Reddit, Twitter, and YouTube, users mostly interact under posts and comments, which often involve statements, 
+                            arguments, and/or references to sources. These communities also have varying degrees of interaction around discussing and debating misinformation, where likes/votes/replies often 
+                            indicate their agreement/disagreement with certain comments.</li>
+                        <li>Fact checking is often a community effort between the users. Although some platforms attempt 
+                            to fact check and flag posts, these interventions does not seem to receive as much attention from the users. Instead, the topic of dissuading and regulating misinformation
+                            often go to the platform's ethics and responsibilities.</li>
+                    </ul> 
                 </p><br>
                 <h2>Competitive Analysis: Social Media</h2>
-                <div class="row titleTopSpace">
-                    <div class="col">
-                        <p>Next, we looked to different social media platforms, Twitter, Facebook, YouTube, and Reddit, by studying their characteristics and handling of misinformation.</p>  
-                        <p>My team compiled a list of features from these platforms that are useful for preventing misinformation. This list includes how these platforms label/flag misleading content, 
-                            placetrust indicators to assess credibility of news sources, and report posts/pages that spread misinformation. We have also identified significant gaps across these 
-                            platforms: encouragement of echo chambers through the lack of diverse content through the recommendation system, 
-                            limited user control and freedom regarding recommended posts on their feed, and weak enforcement of policies. </p>     
-                    </div>
-                    <div class="col text-center">
-                        <img src="TwitterImages/competTwitter.png">
-                        <p>A small snippet of our competitive analysis matrix!</p>
-                    </div>
+                <div class="titleTopSpace text-center">
+                    <img id="competATwt" src="TwitterImages/competTwitter.png">
+                    <br>
+                    <b>A small snippet of our competitive analysis matrix!</b>
                 </div>
+                <div class="titleTopSpace">
+                    <p>Next, we looked to different social media platforms, Twitter, Facebook, YouTube, and Reddit, by studying their characteristics and handling of misinformation.</p>  
+                    <p>My team compiled a list of features from these platforms that are useful for preventing misinformation. This list includes how these platforms label/flag misleading content, 
+                        placetrust indicators to assess credibility of news sources, and report posts/pages that spread misinformation. We have also identified significant gaps across these 
+                        platforms: <b>encouragement of echo chambers through the lack of diverse content through the recommendation system, 
+                        limited user control and freedom regarding recommended posts on their feed, and weak enforcement of policies</b>. </p>     
+                </div>
+                    <!-- <div class="col text-center" id="competColTwt">
+                    </div> -->
+                
 
                 <h2 class="titleTopSpace">Interviews on Misinformation</h2>
                 <p>To gain more user input, we interviewed four social media users about their opinions and habits when it comes to online misinformation.
@@ -157,12 +159,12 @@
                     We decided on the Twitter platform, because we recognized that Twitter was a popular app for sharing news and opinions.
                     We also drew inspiration from some of Twitter's current features that flag disputed Tweets, and we wanted to expand on it.
                 </p>
-                <p>Our goal is to reduce the spread of misinformation via a redesigned Twitter interface that: 
+                <p><b>Our goal is to reduce the spread of misinformation via a redesigned Twitter interface that: 
                     <ul>
                     <li>Deemphasizes interaction with misinformation in users' feeds</li>
                     <li>Discourages echo chambers</li>
                     <li>Incentivizes fact-checking</li>
-                    </ul>
+                    </b></ul>
                 </p>
                 <p>With our research, personas, and mission statement in mind, we moved to InVision and Figma
                     to create prototypes for a new anti-misinformation feature for Twitter.
@@ -180,7 +182,7 @@
                     </div>
                     <div class="col">
                         <img src="TwitterImages/sketches.png">
-                        <b>Sketches: Different Ideas</b>
+                        <b>Sketches: Brainstorming Different Ideas</b>
                     </div>
                 </div>
                 <p class="titleTopSpace">We moved to InVision to sketch out some ideas to help inspire and motivate our future designs.
@@ -191,7 +193,7 @@
                 <img src="TwitterImages/wfverB.png"> -->
                 <h2 class="titleTopSpace">Low-Fidelity Prototypes: Different Paths</h2>
                 <p>With a few ideas laid out, we gained some feedback from our peers about which layout was the best and most intuitive to Twitter’s current platform. 
-                    My team took this feedback and settled on a specfic feature: a button on a tweet that takes the user to a dynamically generated page based on the main topic of the original tweet.
+                    My team took this feedback and settled on a specfic feature: <b>a button on a tweet that takes the user to a dynamically generated page based on the main topic of the original tweet.</b>
                     The page would be divided into three separate categories the user can sort by.
                     Once we narrowed down to that idea, we moved to Figma to create some low fidelity prototypes.
                     The prototypes below show the "Topic" page generated. The main example topic is on student loans.
@@ -262,12 +264,12 @@
                 </p>
                 <p>From our results, we made a few considerations towards the next iteration.
                     <ul>
-                        <li>We noticed that users are unable to immediately recall different opinions as they said there were too many tweets and they did not pay attention to how the tweets differ from each other. 
+                        <li>We noticed that users are unable to immediately recall different opinions as they said there were <b>too many tweets and they did not pay attention to how the tweets differ from each other</b>. 
                             Thus, we decided to add similar/different tags in order to help the users visually categorize different arguments. A "simliar" tag tells the user that the tweet contains a similar viewpoint to the original tweet, and vice versan for the different tag.</li>
-                        <li>Some users gave the suggestion that the first information the users are shown should be the most relevant and (close to) factually correct. Therefore, we rearranged the order of the tweets to be so.</li>
-                        <li>Some users mentioned that the “Show more about [topic]” button might feel cluttered or stand out too much, however, ideally a regular Twitter user would have a more varied timeline where not all tweets would all be focused around a singular topic. Therefore, we chose to maintain the same design for our “Show more” button.</li>
+                        <li>Some users gave the suggestion that the first information the users are shown should be the most <b>relevant and (close to) factually correct</b>. Therefore, we rearranged the order of the tweets to be so.</li>
+                        <li>Some users mentioned that the “Show more about [topic]” button might feel cluttered or stand out too much. However, ideally a regular Twitter user would have a more varied timeline where not all tweets would all be focused around a singular topic. Therefore, we chose to maintain the same design for our “Show more” button.</li>
                     </ul>
-                </p>
+                </p><br>
                 <div class="row titleTopSpace">
                     <div class="col colCenter">
                         <h2>Final Version</h2>

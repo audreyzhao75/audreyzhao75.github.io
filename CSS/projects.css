@@ -16,6 +16,7 @@ img {
 
 li, b {
     font-size: 0.4cm;
+    margin-bottom: 1%;
 }
 
 .containerCase {
@@ -281,14 +282,36 @@ li, b {
 /* -------- Top --------- */
 #TwitterTop{
     background-color: #05151f;
-    color: #fafafa;
+    color: hsl(0, 0%, 98%);
+    height: 700px;
 }
 
+/* #topTwt {
+    margin-top: -90px;
+    margin-bottom: 30px;
+} */
+
+/* #waveTwt {
+    height: auto;
+    padding: 0%;
+} */
+
 /* ----- Section 1 ------ */
+
+#finalPoster {
+    width: 450px;
+    margin-left: 15%;
+    /* margin-top: -60px; */
+}
+
+#overviewTwt {
+    margin-left: -2%;
+}
 
 #TwitterIntro{
     background-color: #f5f8fa;
     /* background-color: #aab8c2; */
+    margin-top: -250px;
 }
 
 #twittLogo {
@@ -310,6 +333,14 @@ li, b {
     background-color: #aab8c2;
 }
 
+/* #competColTwt {
+    float:left;
+} */
+
+#competATwt {
+    width: 80%;
+}
+
 /* #styleGuideTwitter {
     width: 80%;
 } */
@@ -329,8 +360,9 @@ li, b {
 /* ----- Section 4 ------ */
 
 #Twitter-S4{
-    background-color: #1da1f2;
-    color: #fafafa;
+    background-color: #77c6f7;
+    /* background-color: #1da1f2; */
+    /* color: #e9e8e8; */
 }
 
 #hifiV1 {
