@@ -3,6 +3,10 @@ body{
     padding: 0px;
 }
 
+p, p b {
+    font-size: large;
+}
+
 /* =============== GENERAL =============== */
 
 .jumbotron {
@@ -209,46 +213,117 @@ li, b {
 /* ================ PIAZZA ================ */
 /* ---------------------------------------- */
 
-.caseTitle {
-    text-align: center;
+/* * {
+    box-sizing: border-box;
+}
+
+.colFloat {
+    float: left;
+    width: 50%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  @media screen and (max-width: 900px) {
+    .column {
+        width: 100%;
+    }
+} */
+
+#piazTitle {
+    /* text-align: right; */
+    /* display: block; */
+    /* background-color: #e2f2ff; */
+    /* color:#1584df; */
+    /* margin-left: 5%; */
+    /* margin-right: -150px; */
 }
 
 #PiazzaTop {
     background-color: #3e7aab;
     color: ghostwhite;
+    height: 650px;
+    padding-bottom: 900px;
+    z-index: -1;
+    text-align: center;
+    /* background-image: linear-gradient(to top right,  #3e7aab, #bfe7fa); */
+}
+
+#PiazzaReMac {
+    width: 100%;
+    /* margin-bottom: 500px; */
+}
+
+@keyframes animateWave {
+    0% {
+      transform: scale(1,0);
+    }
+    100% {
+      transform: scale(1,1);
+    }
+}
+
+#piazzaWave {
+    margin-top: -300px;
+    position: relative;
+    /* background: #3e7aab; */
+    /* color: #FFF; */
+    text-align: center;
+    overflow: hidden;
+}
+
+#piazzaWave > svg{
+    display: block;
+    transform-origin: bottom;
+    animation: animateWave 1000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
 }
 
 /* ----- Section 1: Intro ----- */
+
 #Piazza-S1 {
     background-color: #83bbe9;
+    /* z-index: -1; */
+    /* margin-top: -100px; */
     /* background-color: #fafafa; */
 }
 
 #Piazza-intro {
     background-color: #c7e5fd;
     border-radius: 10px;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 3%;
+    /* padding-left: 20px;
+    padding-right: 20px; */
 }
 
-#piazzaRedesignTop {
-    border-radius: 5px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    border-style: outset;
-    border-color: #676768;
-    width: 90%;
+.headerPiazza {
+    color: #1584df;
 }
 
 /* ----- Section 2 ------ */
 
 #Piazza-S2 {
-    background-color: #b5dff3;
+    background-color: #bfe7fa;
 }
 
 #PiazzaInsights {
     margin-bottom: 7%;
+}
+.errorsPiazza {
+    color: rgb(231, 45, 82);
 }
 
 #tradeoffs {
@@ -267,11 +342,7 @@ li, b {
     /* background-color: #7fb2db; */
 }
 
-#PRGIF {
-    width: 80%;
-}
-
-#PiazzaRedesign {
+.width80 {
     width: 80%;
 }
 
