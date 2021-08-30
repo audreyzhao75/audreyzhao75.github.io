@@ -1,0 +1,133 @@
+<html>
+<meta charset="UTF-8">
+<meta name="description" content="Audrey's Portfolio">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title>HVL Design Challenge</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/navbar.css">
+    <link rel="stylesheet" href="/CSS/projects.css">
+    <link rel="shortcut icon" href="/images/az-logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $("#nav-placeholder").load("/HTML/nav.html");
+        });
+    </script>
+    <div class="containerCase">
+        <div class="">
+            <img class="no-border" src="/caseStudies/DesignChallengeImages/dc-banner.png" alt="Banner for HVL Design Challenge">
+        </div>
+        <div class="row section" id="DC-1">
+            <div class="col">
+                <h3>Background</h3>
+                <p>After my second interview with the <a href="https://harmonyventurelabs.com"><u>Harmony Venture Labs</u></a> design team, I was given this UX design challenge, which took me about 5 hours to complete.</p>
+                <br>
+
+                <h3>Problem & Challenge</h3>
+                <p>The creators of a mobile app, which allows you to travel to any time in the past or the future, wants to implement a recommendations feature that helps users pick a fun time in the future or past to visit.</p>
+                <div class="row" id="ProblemChallenge">
+                    <div class="col-sm-2 colCenter text-center">
+                        <img id="timesvg" src="/caseStudies/DesignChallengeImages/time.svg">
+                    </div>
+                    <div class="col-sm-10">
+                        <p id="challengeText">Design a new feature in our time travel app that provides users with recommendations for places in time to travel to.</p>
+                    </div>
+                </div>
+                <p>Opportunities for this feature include but are not limited to: upselling guided tour packages and filtering.</p>
+            </div>
+        </div>
+        <div class="row section" id="DC-2"><div class="col text-center">
+            <h1>Challenge Accepted</h1>
+        </div></div>
+        <!-- <img src="/caseStudies/DesignChallengeImages/pagediv-1.svg"> -->
+        <div class="row section" id="DC-3">
+            <div class="col">
+                <br>
+                <div class="row">
+                    <div class="col-lg-6 colCenter">
+                        <h3>Storyboarding</h3>
+                        <p>Before I proposed designs, I created a storyboard to explore a potential user situation in which they would need a recommendation feature for time traveling. 
+                            So, I created a storyboard illustrating when a user, Jamie, is not sure on when and where they want to time travel back to, thus relying on the app’s recommendation system to help them.</p>        
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img id="sbdc" src="/caseStudies/DesignChallengeImages/sbdc.png" alt="Storyboard for this design challenge">
+
+                        <!-- <div class="row">
+                            <div class="col-lg-6 text-center">
+                                <img id="sbdc" src="/caseStudies/DesignChallengeImages/sbdc.png" alt="Storyboard for this design challenge">
+                            </div>
+                            <div class="col-lg-6 smallText colCenter">
+                                <p>Transcript of the storyboard:</p>
+                                <ol>
+                                    <li>Jamie wants to travel to sometime in the past or the future, but she is not sure where exactly she wants to go.</li>
+                                    <li>Her best friend suggests a great new app that not only lets you choose exactly where and when you want to travel to but also makes great recommendations!</li>
+                                    <li>Jamie excitedly downloads the app and makes an account. On the home page, she sees there’s a recommendation button and clicks on it.</li>
+                                    <li>She finds a variety of recommendations. She sees a tour for the first ever Olympics!</li>
+                                    <li>After reading up on the tour details, weather conditions, and appropriate apparel for the time and place, she prepares for the tour.</li>
+                                    <li>Through the app, she travels back to the first Olympics held in Greece! She loves the tour and is satisfied with the recommendation system.</li>
+                                </ol>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="row add-space-above flex-column-reverse flex-lg-row" id="SketchingSection">
+                    <div class="text-center col-lg-6 colCenter" id="sketchesDCDiv">
+                        <img id="sketchesDC" src="DesignChallengeImages/sketchesDC.png" alt="Sketches for this design challenge">
+                    </div>
+                    <div class="col-lg-6" id="SketchingText">
+                        <h3>Sketching</h3>
+                        <p>Next, I created some rough sketches to generate ideas for the layout of the recommendation feature.</p>
+                        <!-- <div class="center80 imageSpace"><img src="DesignChallengeImages/sketchesDC.png" alt="Sketches for this design challenge"></div> -->
+                        <p>I drew inspiration for these sketches from existing platforms, like Twitter, whose recommendation page divides content by certain categories: For You, Trending, News, etc. 
+                            I used a similar style for some of these sketches (sketches 2 and 4), but these categories would likely include: All, Tours, Past, Future, etc.</p>
+                        <p>All sketches also have an additional sorting/filter feature (shown on the top right) for more specific searches. This feature would likely be a dropdown where users can input the parameters they want to filter by.</p>        
+                    </div>
+                </div>
+
+                <h3 class="add-space-above">Wireframing</h3>
+                <p>With some ideas sketched out, I narrowed down and combined the most intuitive features. I used Figma to create some grayscale wireframes. </p>
+                <img class="imageSpace" src="/caseStudies/DesignChallengeImages/wireframeDC.png" alt="Wireframes for this design challenge">
+                <p>For this wireframe, the suggested times and places populate the majority of the feed. There are several buttons near the top of the app that let users perform quick filtering. 
+                    The default category would be a general recommendation “For You” page, Users can also explore other categories or tap the filter button on the top-right side to have more fine-tuned recommendations (which would work on any tab). </p>
+                <p>After wireframes, some user testing would be beneficial. I would create some paper prototypes to test with some users. Testers would be given some tasks to navigate through the app. 
+                    Their feedback would help me as I move into the next stages of the design process.</p>
+            </div>
+        </div>
+        <div class="row section" id="DC-4"><div class="col text-center">
+            <h1>The Final Stages</h1>
+        </div></div>
+        <div class="row section" id="DC-5">
+            <div class="col">
+                <h3>Mockup Iteration 1 - Grayscale</h3>
+                <p>For my first mockup, I laid it out in grayscale. You can view and click through the mockup <a target="_blank" href="https://www.figma.com/proto/G2tRi3oRUuvFvVwqaPpxXC/Untitled?node-id=13%3A162&frame-preset-name=iPhone%2011%20Pro%20Max&scaling=scale-down&page-id=0%3A1">here</a>. I screenshot the pages for an easier viewing of all the pages.</p>
+                <img class="imageSpace" src="/caseStudies/DesignChallengeImages/lofiDC.png" alt="The lofi mockup for this design challenge">
+                <p>In this iteration, I added appropriate icons and text. “Tours” are set apart from other recommendations with a banner on the top left corner of each card. This way, the user's attentions are drawn to Tours. I also created the page where the details of the recommendation event are displayed (labeled “Mockup Page” on the top right). This page includes several useful details: tour duration, price, weather conditions, ratings, links to helpful fashion resources, and more. The main feed, in any category, also allows users to filter with more specific parameters if they choose to.</p>
+                
+                <h3 class="add-space-above">Mockup Iteration 2 - Color</h3>
+                <p>For the next iteration, I added color and touched up some features. You can view and click through the mockup <a target="_blank" href="https://www.figma.com/proto/G2tRi3oRUuvFvVwqaPpxXC/Untitled?node-id=32%3A1194&frame-preset-name=iPhone%2011%20Pro%20Max&scaling=scale-down&page-id=32%3A1021">here</a>.</p>
+                <p>First, I wanted to create a color palette that I used to help me keep consistency across this recommendation feature.</p>
+                <img class="imageSpace" src="/caseStudies/DesignChallengeImages/colorPaletteDC.png" alt="The color palette for this design challenge">
+                <p>I settled on these colors (labeled “Final”, found on the far right), because I drew inspiration from some aesthetics of travel apps and color palettes of “adventure”. I originally considered “Retro Future” colors, but I decided that the Travel and Adventure theme is what I want to promote.</p>
+                <img class="imageSpace" src="/caseStudies/DesignChallengeImages/finalDC.png" alt="The final hifi mockup for this design challenge">
+                <p>In this iteration, orange was used to draw users’ attention as it is complementary to the generally blue layout. The Tour recommendations are further highlighted by the orange banners. I made certain text and icons white in order for them to stand out against the dark blue background.</p>
+                
+                <h3 class="add-space-above">User Testing and Further Iterating</h3>
+                <p>At this stage, I would create a test protocol and proceed to test all aspects of this proposed feature. The test protocol would involve the tester thinking aloud as they do each action. This way, I will be able to know what users are thinking as they navigate the app using the feature. After each interview/test, I would analyze the responses and improve the prototype for the next iteration. In addition, I would continue to fine-tune the aesthetics to make sure they stay consistent with the rest of the app’s design.</p>
+                
+                <h3 class="add-space-above">Reflection</h3>
+                <p>Perhaps with more time, I would have pursued more steps in the design process. Testing and collaborative input would help to improve the design, as these current iterations only consist of my perspective. In addition, there are features I would have implemented: making a functional filter (both general and specific), populating the recommendation content, and more. </p>
+                <p>Overall, the challenge was very fun! It tested my abilities to step through the design process without a team, and I learned some new functionalities in Figma. If there are any questions about my design choices and inspirations, please let me know!</p>
+            </div>
+        </div>
+    </div>
+</body>

@@ -15,7 +15,19 @@
 
 <body>
     <!-- nav bar -->
-    <ul class="fixed-top nav nav-pills justify-content-center" id="navbar">  
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $("#nav-placeholder").load("/HTML/nav.html");
+            // window.addEventListener("load", function(){
+            //     var element = document.querySelector("");
+            //     element.style.color = 'blue';
+            //     element.classList.add("active");
+            // });
+        });
+    </script>
+    <!-- <ul class="fixed-top nav nav-pills justify-content-center" id="navbar">  
         <li class="nav-item">
             <a class="nav-link" href="../index.html">Home</a>
         </li>
@@ -31,19 +43,20 @@
         <li class="nav-item">
             <a class="nav-link" href="../AboutMe.html">About Me</a>
         </li>
-    </ul>
+    </ul> -->
 
     <!-- main content -->
     <div class="containerCase">
         <!-- Top -->
-        <div class="row section" id="TwitterTop">
+        <img src="/caseStudies/TwitterImages/Twitter-Misinfo-Banner.png" id="Twitter-Misinfo-Banner">
+        <!-- <div class="row section" id="TwitterTop">
             <div class="col-4 caseTitle text-left">
                 <h1 id="topTwt">Misinformation on Twitter</h1><br>
             </div>
             <div class="col-8 colCenter text-center">
                 <img id="finalPoster" src="TwitterImages/twitterFinalProto.png" alt="Screens of my final prototype">
             </div>
-        </div>
+        </div> -->
         <!-- <svg id="waveTwt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#05151f" fill-opacity="1" d="M0,224L48,186.7C96,149,192,75,288,48C384,21,480,43,576,85.3C672,128,768,192,864,186.7C960,181,1056,107,1152,112C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
           </svg> -->
@@ -51,12 +64,11 @@
         <div class="row section" id="TwitterIntro">
             <div class="col">
                 <!-- <h2 class="titleTopSpace">Overview</h2> -->
-                <div id="overviewTwt" class="col-5">
-                    <p class="removeSpace"><b>Timeline:</b> Februrary - March (6 weeks)</p>
-                    <p class="removeSpace"><b>Design Tools:</b> Figma, Invision</p>
-                    <p class="removeSpace"><b>Group:</b> Yada Chuengsatiansup, Daniel Wang, Angela Quiambao, Audrey Zhao</p> 
-                    <p class="removeSpace"><b>Roles:</b> Designer, Interviewer</p>
-                </div><br><br>
+                <p class="removeSpace"><b>Timeline:</b> Februrary - March (6 weeks)</p>
+                <p class="removeSpace"><b>Design Tools:</b> Figma, Invision</p>
+                <p class="removeSpace"><b>Group:</b> Yada Chuengsatiansup, Daniel Wang, Angela Quiambao, Audrey Zhao</p> 
+                <p class="removeSpace"><b>Roles:</b> Designer, Interviewer</p>
+                <br><br>
                 <h2>Summary</h2>
                 <p>As a group of four, my team decided to study and tackle the problem of misinformation on social media. 
                     We analyzed online discussions, user interviews, and competitive analyses about misinformation on 
@@ -176,19 +188,20 @@
         <div class="row section" id="Twitter-S3">
             <div class="col">
                 <h2>Brainstorming: Where the Ideas Started</h2>
+                <p>We moved to InVision to sketch out some ideas to help inspire and motivate our future designs.
+                    We studied the current layout of Twitter’s feed, and created some storyboards and wireframes to brainstorm a feature to combat misinformation. 
+                </p>
+
                 <div class="row text-center titleTopSpace">
-                    <div class="col">
+                    <div class="col-md-6 imageSpace">
                         <img id="storyboardTwt" src="TwitterImages/sbMisinfo.png">
                         <b>One of the Storyboards: Masked Misinformation</b>
                     </div>
-                    <div class="col">
+                    <div class="col-md-6 imageSpace">
                         <img src="TwitterImages/sketches.png">
                         <b>Sketches: Brainstorming Different Ideas</b>
                     </div>
                 </div>
-                <p class="titleTopSpace">We moved to InVision to sketch out some ideas to help inspire and motivate our future designs.
-                    We studied the current layout of Twitter’s feed, and created some storyboards and wireframes to brainstorm a feature to combat misinformation. 
-                </p>
 
                 <!-- <img src="TwitterImages/wfverA.png">
                 <img src="TwitterImages/wfverB.png"> -->
@@ -200,13 +213,13 @@
                     The prototypes below show the "Topic" page generated. The main example topic is on student loans.
                 </p>
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md-6 imageSpace text-center">
                         <img class="centerImg titleTopSpace center" id="LofiTwtA" src="TwitterImages/verALofi.png">
                         <!-- <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fft0jDXwTCDQmTku7QRJ8pA%2FTwitter-Misinformation%3Fnode-id%3D26%253A10049%26scaling%3Dscale-down" allowfullscreen></iframe> -->    
                         <h4 class="titleTopSpace">Version A</h4>
                         <p>This version places the three tabs (Verified, Top, and Latest) near the top of the topic page. When the user clicks on a specific tab, the page slides over to that tab's filtered tweets.</p>  
                     </div>
-                    <div class="col">
+                    <div class="col-md-6 imageSpace text-center">
                         <img class="centerImg LofiTwt titleTopSpace center" src="TwitterImages/verBLofi.png">
                         <!-- <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fft0jDXwTCDQmTku7QRJ8pA%2FTwitter-Misinformation%3Fnode-id%3D26%253A12974%26scaling%3Dscale-down" allowfullscreen></iframe> -->  
                         <h4 class="titleTopSpace">Version B</h4>   
@@ -231,7 +244,7 @@
         <div class="row section" id="Twitter-S4">
             <div class="col">
                 <div class="row">
-                    <div class="col-4 colCenter">
+                    <div class="col-md-6 colCenter">
                         <h2>Style Guide Based on Twitter's Platform</h2>
                         <p>Before we created the next prototypes, we created a style guide to help us keep consistency between our design and Twitter's current platform.</p>
                         <p>The top half of our guide display the font, font size, and hex colors that are used on Twitter.</p>
@@ -239,19 +252,19 @@
                             the content of the tweet. 
                         </p>
                     </div>
-                    <div class="col">
+                    <div class="col-md-6 text-center">
                         <img id="styleGuideTwitter" class="centerImg" src="TwitterImages/styleGuideTwitter.png">
                     </div>
                 </div>
                 <br>
                 <h2 class="titleTopSpace">High-Fidelity Prototype</h2>
-                <div class="text-center titleTopSpace">
-                    <img id="hifiV1" src="TwitterImages/hifiV1.png">
-                </div>
                 <p class="titleTopSpace">At this stage, we utilized Figma's design and prototype features to construct a high fidelity prototype.
                     We applied the components, colors, fonts, and stlyes from the style guide to this prototype in a way that it looks similar to Twitter's current layout.
                 </p>
-                <p>This prototype allows users to explore a feed generated by the topic of the original tweet. The user is exposed to varying viewpoints and allows them to find more information, discussion, and fact-checking so that they are less likely to be misinformed.</p>
+                <div class="text-center titleTopSpace">
+                    <img id="hifiV1" src="TwitterImages/hifiV1.png">
+                </div>
+                <p class="titleTopSpace">This prototype allows users to explore a feed generated by the topic of the original tweet. The user is exposed to varying viewpoints and allows them to find more information, discussion, and fact-checking so that they are less likely to be misinformed.</p>
                 <p>The "Show more about Student Loans" text in the button located below the tweet content was given a blue color so that the feature stands out to the user.
                     In theory, we want the user to utulize this feature as much as possible, so they can learn more about the content on their feed.
                     By seeing opposing, similar, and verified news, users are likely to depend on discussion and fact-checking to gather their information.
@@ -267,25 +280,25 @@
                     <ul>
                         <li>We noticed that users are unable to immediately recall different opinions as they said there were <b>too many tweets and they did not pay attention to how the tweets differ from each other</b>. 
                             Thus, we decided to add similar/different tags in order to help the users visually categorize different arguments. A "simliar" tag tells the user that the tweet contains a similar viewpoint to the original tweet, and vice versan for the different tag.</li>
-                        <li>Some users gave the suggestion that the first information the users are shown should be the most <b>relevant and (close to) factually correct</b>. Therefore, we rearranged the order of the tweets to be so.</li>
+                        <li>Some users gave the suggestion that <b>the first information users are shown should be the most relevant and (close to) factually correct</b>. Therefore, we rearranged the order of the tweets to be so.</li>
                         <li>Some users mentioned that the “Show more about [topic]” button might feel cluttered or stand out too much. However, ideally a regular Twitter user would have a more varied timeline where not all tweets would all be focused around a singular topic. Therefore, we chose to maintain the same design for our “Show more” button.</li>
                     </ul>
                 </p><br>
                 <div class="row titleTopSpace">
-                    <div class="col colCenter">
+                    <div class="col-md-6 colCenter">
                         <h2>Final Version</h2>
                         <p>And the finale! Based on all of our research, interviews, and iterations, we constructed this final prototype.
                             The "Show more about [topic]" button has shown to help users find the information that is verified and discussed.</p>
                         <p>And, we added the similar and different tags mentioned earlier. They can be seen in the GIF to the right.</p>
                     </div>
-                    <div class="col">
+                    <div class="col-md-6">
                         <!-- GIF -->
                         <img src="TwitterImages/diffSimGIF.gif">
                     </div>
                 </div><br>
                 <h2 class="titleTopSpace">Below is our final Figma prototype! Feel free to explore it.</h2>
                 <div class="titleTopSpace text-center">
-                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fft0jDXwTCDQmTku7QRJ8pA%2FTwitter-Misinformation%3Fnode-id%3D128%253A2592%26scaling%3Dscale-down" allowfullscreen></iframe>
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fft0jDXwTCDQmTku7QRJ8pA%2FTwitter-Misinformation%3Fnode-id%3D128%253A2592%26scaling%3Dscale-down" allowfullscreen></iframe>
                 </div>
                 <h2 class="titleTopSpace">The End</h2>
                 <p>In this project, I dug deep into the design process as a whole. I learned how to effectively use Figma's prototype, design, and collaborative tools. I conducted meaningful user research and interviews that contributed to our designs. 

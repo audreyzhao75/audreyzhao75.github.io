@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(44, 44, 44);
+}
+
+/* =============== NAV =============== */
+
+.containerCase {
+    margin-top: 100px;
+}
+
+/* =============== GENERAL =============== */
+
+#navbarBottom{
+    margin: 40px;
+}
+
+body img{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card{
+    margin-bottom: 20px;
+    background-color:ghostwhite;
+}
+
+h1, h5, h6, .progress, #datasheetLink{
+    margin: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color:rgb(21, 104, 187);
+}
+
+p {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 0px;
+}
+
+#skatingImg, #hikingImg, #musicImg, #snowboardingImg {
+    width: 100%;
+    margin-top: 0px;
+}
+
+#iahmm {
+    text-align: center;
+}
+
+/* #Education {
+    background-color:ghostwhite;
+} */

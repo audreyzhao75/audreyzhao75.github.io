@@ -15,7 +15,19 @@
 
 <body>
     <!-- nav bar -->
-    <ul class="fixed-top nav nav-pills justify-content-center" id="navbar">  
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $("#nav-placeholder").load("/HTML/nav.html");
+            // window.addEventListener("load", function(){
+            //     var element = document.querySelector("");
+            //     element.style.color = 'blue';
+            //     element.classList.add("active");
+            // });
+        });
+    </script>
+    <!-- <ul class="fixed-top nav nav-pills justify-content-center" id="navbar">  
         <li class="nav-item">
             <a class="nav-link" href="../index.html">Home</a>
         </li>
@@ -32,7 +44,7 @@
         <li class="nav-item">
             <a class="nav-link" href="../AboutMe.html">About Me</a>
         </li>
-    </ul>
+    </ul> -->
 
     <!-- main content -->
     <div class="containerCase">
@@ -96,40 +108,40 @@
                 <p>By observing the actions and answers from the interviewees, we discovered there were actually a lot of issues 
                     with Piazza features! Let’s step through these problems below.</p>
                 <br><hr>
-                <div class="row subsection titleTopSpace">
-                    <div class="col text-center">
+                <div class="row subsection add-space-above flex-column-reverse flex-md-row">
+                    <div class="col-md-6 text-center">
                         <img src="PiazzaImages/incorrectTerms.png">
                         <b><i>There is a one character difference (space vs. dash) between the search terms. 
                             The results were very different: the “dash” search leads to results, but “space” dash leads to no results.</i></b>
-                    </div>
-                    <div class="col colCenter">
+                    </div> <br>
+                    <div class="col-md-6 colCenter">
                         <h5 class="errorsPiazza">Incorrect Terms and Typos in the Search Bar</h5>
                         <p>If the user were to input something with similar or wrong spelling, relevant or desired posts may not appear. 
                             So the user would have to have precise spelling/keywords. This issue could hinder search flow and efficiency.</p>
-                    </div>
+                    </div><br>
                 </div>
-                <hr>
-                <div class="row subsection titleTopSpace">
-                    <div class="col">
+                <br><hr>
+                <div class="row subsection add-space-above">
+                    <div class="col-md-6">
                         <h5 class="errorsPiazza">Unseen and Unused Folders</h5>
                         <p>There is a feature at the top of Piazza that I personally had not noticed for a long time: the folders feature. 
                             The folders are created by the instructors to place relevant information and posts together. This feature is meant to help users 
                             better search for relevant information. </p>
                         <p>My team thought that the feature did not have a clear signifier to its existence. We figured that a feature that can increase search efficiency 
                             should be more visible to users.</p>
-                    </div>
-                    <div class="col colCenter text-center">
+                    </div><br>
+                    <div class="col-md-6 colCenter text-center">
                         <img src="PiazzaImages/folderGIF.gif">
                         <b><i>When the mouse hovers over one of the folders labeled “project_1”, the text color changes only slightly. The same happens for the other labels.</i></b>
                     </div>
                 </div>
                 <hr>
-                <div class="row subsection titleTopSpace">
-                    <div class="col text-center">
+                <div class="row subsection add-space-above flex-column-reverse flex-md-row">
+                    <div class="col-md-6 text-center">
                         <img src="PiazzaImages/scrollingGIF.gif">
                         <b><i>Scrolling through so many posts make the users confused and overloaded with information.</i></b>
-                    </div>
-                    <div class="col colCenter">
+                    </div><br>
+                    <div class="col-md-6 colCenter">
                         <h5 class="errorsPiazza">Too Much Scrolling!</h5>
                         <p>Below the search bar, there’s a section where the users can scroll through posts by the date and time posted. 
                             The posts are very close together, and if there are a lot of posts, the user may not be able to pick up all the information shown in the previews. 
@@ -138,15 +150,15 @@
                     </div>
                 </div>
                 <hr>
-                <div class="row subsection titleTopSpace">
-                    <div class="col">
+                <div class="row subsection add-space-above">
+                    <div class="col-md-6">
                         <h5 class="errorsPiazza">Inconsistent Dates</h5>
                         <p>Posts on Piazza have certain sections that date when the post was made or updated. However, specific dates are not shown on the post page itself.</p>
                         <p>Interviewees seemed to have a difficult time when determining specific dates. Because the text is fairly small and off to the side, we figured that users are more unlikely to look at them when reading through the contents of the post. 
                             In addition, if the post was made within a week of the current date, the boxed area on the left would be labelled by the day of the week (Monday, Tues, etc.) 
                             rather than by month/day/year. We thought that this inconsistency in the form of dates would be very confusing to the user.</p>
-                    </div>
-                    <div class="col colCenter text-center">
+                    </div><br>
+                    <div class="col-md-6 colCenter text-center">
                         <img src="PiazzaImages/dates.png">
                         <b><i>Piazza displays the post was made or updated “X days ago” (or by a weekday) at the bottom right. There’s an additional date section on each post preview in the scroll section. In the picture to the right, 
                             the red rectangles indicate where the posts are dated.</i></b>

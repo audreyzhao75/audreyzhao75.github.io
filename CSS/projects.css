@@ -3,7 +3,7 @@ body{
     padding: 0px;
 }
 
-p, p b {
+p, p b, b {
     font-size: large;
 }
 
@@ -15,16 +15,16 @@ p, p b {
 
 img {
     width: 100%;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
-li, b {
+li, b, ol {
     font-size: 0.4cm;
     margin-bottom: 1%;
 }
 
 .containerCase {
-    margin-top: 78px;
+    margin-top: 63px;
 }
 
 .section{
@@ -76,8 +76,7 @@ li, b {
 }
 
 #topText{
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: -5%;
     font-size: .4cm;
 }
 
@@ -95,11 +94,7 @@ li, b {
 
 #popcorn {
     width: 80%;
-}
-
-.popPhoto {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-bottom: 5%;
 }
 
 .content {
@@ -200,8 +195,8 @@ li, b {
     text-align: center;
 }
 
-#fpText {
-    margin-left: -6%;
+#pitch-walk-text {
+    margin-top: 10%;
 }
 
 /* Other */
@@ -369,20 +364,19 @@ li, b {
 
 /* ----- Section 1 ------ */
 
+#Twitter-Misinfo-Banner {
+    width: 100%;
+}
+
 #finalPoster {
     width: 450px;
     margin-left: 15%;
     /* margin-top: -60px; */
 }
 
-#overviewTwt {
-    margin-left: -2%;
-}
-
 #TwitterIntro{
     background-color: #f5f8fa;
     /* background-color: #aab8c2; */
-    margin-top: -250px;
 }
 
 #twittLogo {
@@ -438,4 +432,145 @@ li, b {
 
 #hifiV1 {
     width: 80%;
+}
+
+
+/* --------------------------------------- */
+/* ================= HVL ================= */
+/* --------------------------------------- */
+
+
+
+/* .parralax {
+    background-image: url("/caseStudies/HVLImages/HVL\ internship\ banner-2.svg");
+
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+#HVL-banner {
+    border-radius: 0%;
+}
+
+#HVL-1 {
+    background-color: white;
+}
+
+#HVL_Group_Pic {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#HVL-title-1 {
+    text-align: center;
+    background-color: #044E59;
+    color: white;
+}
+
+.whiteBG {
+    background-color: white;
+}
+
+/* #HVL-summit {
+    margin-left: -15%;
+} */
+
+#HVLExpText {
+    margin-top: 5%;
+}
+
+#External-section {
+    padding: 5%;
+    border: #044E59;
+    border-width: 5px;
+    border-style: none none none solid;
+    /* background-color: #044E59; */
+}
+#Internal-section {
+    padding: 5%;
+    border: #007157;
+    border-width: 5px;
+    border-style: none none none solid;
+    /* background-color: #007157; */
+}
+
+#HVL-title-2 {
+    text-align: center;
+    background-color: #292D2E;
+    color: white;
+}
+
+
+/* --------------------------------------------------------- */
+/* ================= HVL: Design Challenge ================= */
+/* --------------------------------------------------------- */
+
+.add-space-above {
+    margin-top: 10%;
+}
+
+.imageSpace {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+#DC-1, #DC-3, #DC-5 {
+    background-color: white;
+}
+
+#DC-2 {
+    background-color: #E8F3F3;
+}
+
+#DC-4 {
+    background-color: #C0E1E1;
+}
+
+#ProblemChallenge {
+    /* padding-top: 3%;
+    padding-bottom: 3%; */
+    border: 2px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #24afc2;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#challengeText {
+    /* background-color: #d2e7f8; */
+    color:  #fff;
+    font-size:x-large;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#timesvg {
+    width:80px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#sbdc, #sketchesDC {
+    width: 350px;
+    margin-bottom: 25px;
+}
+
+.no-border {
+    border-radius: 0px;
+}
+
+.smallText p, .smallText li{
+    font-size: small;
+}
+
+.center80 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
