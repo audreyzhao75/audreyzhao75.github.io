@@ -24,11 +24,6 @@ img {
     margin-bottom: auto;  */
 }
 
-h1 {
-    color: white;
-    padding: 2%;
-}
-
 .colCenter {
     margin-top: auto;
     margin-bottom: auto;
@@ -88,6 +83,30 @@ h1 {
 /* =============== CASE STUDIES =============== */
 
 /* Revised */
+
+#seeMore {
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.caseSection-title {
+    margin: 20px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#de-emp {
+    margin-bottom: 0px;
+}
+
+#CS-and-exp {
+    color: #52acff;
+}
+
+#cases-container {
+    margin-top: 20px;
+}
 
 .all-cards {
     margin-left: 5%;
@@ -194,53 +213,6 @@ mark {
     height: 30%;
 }
 
-/* piazza */
-#piazzaCase {
-    background-color: rgb(157, 209, 223);
-    /* border-color: rgb(178, 204, 211); */
-    /* rgb(119, 187, 204); */
-    /* (164, 229, 245); */
-}
-
-#piazzaThumb {
-    top: 50%;
-    display: block;
-    position: relative;
-    margin: auto;
-    margin-top: 6%;
-}
-
-/* unfinished */
-#unfinishedCase {
-    background-color: rgb(198, 163, 219);
-    text-align: left;
-}
-
-/* earbuds */
-#earbudCase {
-    background-color: rgb(59, 72, 104);
-}
-
-#earbudsThumb {
-    /* margin-top: 13%; */
-    width: 45%;
-    transform: rotate(270deg);
-}
-
-/* WePet */
-#wepetCase {
-    background-color: pink;
-}
-
-#wepetThumb {
-    width: 60%;
-}
-
-/* Twitter */
-#TwitterMisinfo {
-    background-color: #1DA1F2;
-    text-align: center;
-}
 
 .allCards {
     padding: 5%;
@@ -253,6 +225,18 @@ mark {
     padding: 5%;
     color: white;
     text-align: center;
+}
+
+case-card {
+    height: auto;
+    /* width: 350px; */
+    /* background-color: white; */
+    /* margin-top: 10px; */
+    margin: 5px;
+}
+
+#upcoming-title {
+    margin-bottom: 20px;
 }
 
 /* From: https://csshint.com/css-animated-backgrounds/ */

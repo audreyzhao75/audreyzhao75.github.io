@@ -1,0 +1,60 @@
+{
+    "cards": [
+        {
+            "name": "WePet",
+            "href": "/caseStudies/WePet.html",
+            "id": "WePet-thumb",
+            "image": "/IndexThumbs/WePet-thumb.svg",
+            "alt": "WePet App Case Study Thumbnail"
+        },
+        {
+            "name": "HVL Design Challenge",
+            "href": "/caseStudies/HVL-full-design-challenge.html",
+            "id": "HVLDC-thumb",
+            "image": "/IndexThumbs/Design-challenge-thumb.png",
+            "alt": "TritonHacks Case Study Thumbnail"
+        },
+        {
+            "name": "Twitter Misinformation",
+            "href": "/caseStudies/twitterMisinfo.html",
+            "id": "Twitter-thumb",
+            "image": "/IndexThumbs/Twitter-Misinfo-Thumb.png",
+            "alt": "Twitter Misinformation Case Study Thumbnail"
+        } ,
+        {
+            "name": "HVL internship",
+            "href": "/caseStudies/HVL-internship.html",
+            "id": "HVL-thumb",
+            "image": "/IndexThumbs/HVL-thumb.png",
+            "alt": "HVL Internship Thumbnail"
+        } ,
+        {
+            "name": "Piazza",
+            "href": "/caseStudies/Piazza.html",
+            "id": "Piazza-thumb",
+            "image": "/IndexThumbs/Piazza-thumb.svg",
+            "alt": "Piazza Case Study Thumbnail"
+        } ,
+        {
+            "name": "Spatch",
+            "href": "",
+            "id": "",
+            "image": "/IndexThumbs/WIP-Spatch.png",
+            "alt": "Spatch Case Study Thumbnail"
+        } ,
+        {
+            "name": "SquadUp Gaming",
+            "href": "",
+            "id": "",
+            "image": "/IndexThumbs/WIP-SquadUp.png",
+            "alt": "SquadUp Case Study Thumbnail"
+        },
+        {
+            "name": "TritonHacks 2021",
+            "href": "",
+            "id": "TritonHacks-thumb",
+            "image": "/IndexThumbs/WIP-TritonHacks.png",
+            "alt": "TritonHacks 2021 Case Study Thumbnail"
+        } 
+    ]
+}

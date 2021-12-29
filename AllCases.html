@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="description" content="Audrey's Portfolio">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title>Audrey's Experiences</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="/CSS/navbar.css">
+    <link rel="stylesheet" href="/CSS/AllCases.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="/images/az-logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $("#nav-placeholder").load("HTML/nav.html");
+        });
+    </script>
+
+    <!-- Cases -->
+    <div class="container top">
+        <div class="row title"><div class="col">
+            <h1>My experiences</h1>
+            <p>Here are samples and in-depth studies of my work and project experiences, ranging from 2019 to present.</p>
+        </div></div>
+        <div class="row  d-flex justify-content-center" id="cases-container"></div>
+    </div>
+    <script src="JS/caseCards.js"></script>
+    <script src="JS/AllCases.js"></script>
+</body>
+
+</html>
