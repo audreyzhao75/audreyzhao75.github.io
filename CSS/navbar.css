@@ -22,6 +22,10 @@
     cursor: pointer;
 }
 
+/* .nav-item {
+    float: right;
+} */
+
 #az-logo {
     width: 50%;
     display: block;

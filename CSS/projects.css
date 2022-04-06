@@ -24,7 +24,7 @@ li, b, ol {
 }
 
 .containerCase {
-    margin-top: 63px;
+    /* margin-top: 63px; */
 }
 
 .section{
@@ -573,4 +573,31 @@ li, b, ol {
     margin-right: auto;
     margin-top: 3%;
     margin-bottom: 3%;
+}
+
+
+/* --------------------------------------------------------- */
+/* ======================== Spatch ========================= */
+/* --------------------------------------------------------- */
+
+#SpatchIntro {
+    background-color: #F7F7F7;
+}
+
+#intro-vid-text {
+    color: white;
+    margin-bottom: 50px;
+}
+
+#Spatch-vid {
+    /* background-color: #007157; */
+    background-image: url("/caseStudies/SpatchImages/intro-bg.svg");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* background-size: 100% 100%; */
+}
+
+#Spatch-1 {
+    background-color: white;
 }

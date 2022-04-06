@@ -1,0 +1,80 @@
+<html>
+<meta charset="UTF-8">
+<meta name="description" content="Audrey's Portfolio">
+
+<head>
+    <title>Spatch</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/resNav.css">
+    <link rel="stylesheet" href="/CSS/projects.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/az-logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $("#nav-placeholder").load("/HTML/resNav.html");
+            // window.addEventListener("load", function(){
+            //     var element = document.querySelector("");
+            //     element.style.color = 'blue';
+            //     element.classList.add("active");
+            // });
+        });
+    </script>
+
+    <!-- main content -->
+    <div class="containerCase">
+        <!-- Top -->
+        <img src="/caseStudies/SpatchImages/Spatch-thumb.png" id="Spatch-Banner">
+        <!-- Section 1: Intro -->
+        <div class="row section" id="SpatchIntro">
+            <div class="col">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 mb-4 sp-intro">
+                        <h1>Background</h1>
+                        <p>As a team of 9, we set out to design and implement a recipe management app. Over 6 weeks, we employed the agile software development process.</p>
+                        <p>Our group named Team Ateteen (because we were group 18 and food-themed, so ate...18...Ateteen) created Spatch, a web application that helps beginner cooks find and compile recipes into one place.</p>
+                        <h1>My Roles</h1>
+                        <p>Team Lead, front-end developer, designer, planner-organizer</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 mb-4 sp-intro">
+                        <img class="" src="SpatchImages/ratatouille.png">
+                    </div>
+                </div>
+                <!-- <p>final vid or intro vid</p>
+                <p>https://youtu.be/10tUJk_GAWg</p>
+                <p>https://youtu.be/jQnfDLYJA2k</p> -->
+            </div>
+        </div>
+        <div class="row section text-center" id="Spatch-vid">
+            <div class="col">
+                <h4 id="intro-vid-text">A quick intro to the team!</h4>
+                <video width="536" height="300" controls>
+                    <source src="SpatchImages/AteteenIntroVid.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+            </div>
+            <!-- <video width="320" height="240" controls>
+                <source src="SpatchImages/AteteenIntroVid.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video> -->
+            <!-- <iframe  width="420" height="315" src="https://www.youtube.com/embed/jQnfDLYJA2k"></iframe> -->
+            <!-- <iframe  width="420" height="315" src="https://www.youtube.com/embed/10tUJk_GAWg"></iframe> -->
+        </div>
+        <div class="row section" id="Spatch-1"><div class="col">
+            <h1>Before we got to coding</h1>
+            <p>text</p>
+            <h1>Dividing up tasks</h1>
+            <p>text</p>
+            <!-- <p>https://fervent-goldberg-7618a0.netlify.app/public/home</p> -->
+        </div></div>
+    </div>
+</body>
+</html>

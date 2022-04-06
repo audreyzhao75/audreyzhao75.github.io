@@ -1,0 +1,244 @@
+/* ===== General ===== */
+
+body {
+    background-color: #F3F9FF;
+    padding: 0px;
+    margin: 0px;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 100%;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section {
+    padding: 150px 15%;
+}
+
+.vertCenter {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.space50 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* ===== Specific ===== */
+
+#allContent {
+    margin: 0%;
+    /* width:100%; */
+    /* overflow: hidden; */
+}
+
+#index-intro {
+    background-color: #121212;
+    /* background-image: url("/images/intro-bg-shapes-color.svg");
+    background-repeat: no-repeat; */
+    margin-top: -190px;
+    width: 100%;
+
+    overflow: hidden;
+}
+
+#intro-home-text {
+    margin-top: 270px;
+    color: #F3F9FF;
+}
+
+#myName {
+    /* color: inherit; */
+    text-decoration: none;
+    display: inline;
+    color: #0986f3;
+}
+
+#myName {
+    display: inline-block;
+    color: #0986f3;
+    background: linear-gradient(to right, #02BAE9 50%, #0986f3 50%);
+    /* background: linear-gradient(to right,
+        linear-gradient(
+            to right,
+            rgba(255, 0, 0, 1),
+            rgba(255, 0, 180, 1),
+            rgba(0, 100, 200, 1)
+        ) 50%,
+        linear-gradient(
+            to right,
+            rgba(100, 200, 200, 1),
+            rgba(100, 200, 200, 1)
+        ) 50%
+    ); */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position 275ms ease;
+    text-decoration: none;
+    
+  }
+#myName:hover {
+    background-position: 0 100%;
+}
+  
+/* #myName {
+    background:
+      linear-gradient(
+        to right,
+        rgba(100, 200, 200, 1),
+        rgba(100, 200, 200, 1)
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+#myName:hover {
+    background-size: 0 3px, 100% 3px;
+} */
+  
+
+#intro-home-pic {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#myPic {
+    width: 500px;
+    display: block;
+    margin-top: 50px;
+
+    z-index: 0;
+}
+
+#intro-overlap-design {
+    /* position: absolute;
+    width: 400px;
+    left: 55%;
+    top: 250px; */
+
+    position: absolute;
+    width: 300px;
+    left: 50%;
+    top: 380px;
+    /* position: absolute;
+    width: 400px;
+    top: 400px;
+
+    z-index: 1; */
+    width: 400px;
+}
+
+#intro-overlap-sun {
+    position: absolute;
+    width: 70px;
+    left: 0%;
+    top: 350px;
+}
+
+#index-about-me {
+    background-color: #3680CA;
+}
+
+#about-me-pic {
+    width: 420px;
+}
+
+#index-about-me-text {
+    color: white;
+    padding: 20px;
+    margin-left: 80px;
+}
+
+#about-me-btn {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #F3F9FF;
+    padding: 10px 10px;
+    width: 240px;
+    text-align: center;
+
+    color: white;
+    margin-top: 30px;
+}
+
+#about-me-bg-section {
+    margin-top: -35%;
+    margin-bottom: -100px;
+}
+
+#about-me-bg {
+    width: 100%;
+}
+
+#cases-more-btn {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #F3F9FF;
+    padding: 10px 10px;
+    width: 240px;
+    text-align: center;
+    background-color: #121E2A;
+
+    color: white;
+    margin-top: 30px;
+}
+
+#cases-more-btn:hover, #about-me-btn:hover {
+    transition: ease 0.2s;
+    transform: translateY(-5px);
+}
+
+#about-me-link:hover {
+    text-decoration: none;
+    /* text-decoration: white wavy underline; */
+}
+
+#project-display {
+    background-color: #121E2A;
+    padding: 130px 20%;
+    margin-top: -150px;
+}
+
+#cases-container {
+    margin-top: -180px;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+#cases-more-link {
+    color: white;
+    text-decoration: none;
+}

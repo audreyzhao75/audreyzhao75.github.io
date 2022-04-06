@@ -20,6 +20,26 @@ body img{
     margin-bottom: 10px;
 }
 
+.about-section {
+    margin-top: 30px;
+}
+
+#about-top-pic {
+    width: 100%;
+}
+
+#about-top {
+    margin: 0px;
+    color: white;
+}
+
+.about-desc {
+    margin: 0px;
+    margin-top: 20px;
+    color: white;
+    font-size: large;
+}
+
 .card{
     margin-bottom: 20px;
     background-color:ghostwhite;
