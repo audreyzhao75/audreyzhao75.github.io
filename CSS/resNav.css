@@ -18,7 +18,7 @@
     text-align: center;
     padding: 30px 30px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
 
     /* display: inline-block; */
     position: relative;
@@ -26,11 +26,13 @@
 }
 
 #az-logo-pic {
-    width: 50px;
+    width: 40px;
 }
 
 .left-item {
-    display: block;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    display: inline-block;
     padding: 15px 15px;
 }
 

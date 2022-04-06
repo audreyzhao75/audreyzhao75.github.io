@@ -39,6 +39,10 @@ body {
     margin-bottom: 50px;
 }
 
+.lead {
+    font-size: 18px;
+}
+
 /* ===== Specific ===== */
 
 #allContent {
@@ -51,14 +55,14 @@ body {
     background-color: #121212;
     /* background-image: url("/images/intro-bg-shapes-color.svg");
     background-repeat: no-repeat; */
-    margin-top: -190px;
+    margin-top: -185px;
     width: 100%;
 
     overflow: hidden;
 }
 
 #intro-home-text {
-    margin-top: 270px;
+    margin-top: 185px;
     color: #F3F9FF;
 }
 
@@ -130,7 +134,7 @@ body {
 }
 
 #myPic {
-    width: 500px;
+    width: 400px;
     display: block;
     margin-top: 50px;
 
