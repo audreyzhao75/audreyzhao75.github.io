@@ -1,7 +1,7 @@
 /* ===== General ===== */
 
 body {
-    background-color: #F3F9FF;
+    background-color: #121212;
     padding: 0px;
     margin: 0px;
     animation: fadeInAnimation ease 2s;
@@ -62,7 +62,7 @@ body {
 }
 
 #intro-home-text {
-    margin-top: 185px;
+    margin-top: 155px;
     color: #F3F9FF;
 }
 
@@ -134,7 +134,7 @@ body {
 }
 
 #myPic {
-    width: 400px;
+    width: 350px;
     display: block;
     margin-top: 50px;
 
