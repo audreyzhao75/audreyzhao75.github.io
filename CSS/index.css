@@ -38,6 +38,12 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.space20Above {
+    margin-top: 20px;
+}
+.space50Above {
+    margin-top: 50px;
+}
 
 .lead {
     font-size: 18px;
@@ -166,42 +172,6 @@ body {
     top: 350px;
 }
 
-#index-about-me {
-    background-color: #3680CA;
-}
-
-#about-me-pic {
-    width: 350px;
-}
-
-#index-about-me-text {
-    color: white;
-    padding: 20px;
-    margin-left: 80px;
-}
-
-#about-me-btn {
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 2px;
-    border-color: #F3F9FF;
-    padding: 10px 10px;
-    width: 240px;
-    text-align: center;
-
-    color: white;
-    margin-top: 30px;
-}
-
-#about-me-bg-section {
-    margin-top: -35%;
-    margin-bottom: -100px;
-}
-
-#about-me-bg {
-    width: 100%;
-}
-
 #cases-more-btn {
     border-style: solid;
     border-radius: 5px;
@@ -216,7 +186,7 @@ body {
     margin-top: 30px;
 }
 
-#cases-more-btn:hover, #about-me-btn:hover {
+#cases-more-btn:hover, #about-me-btn:hover, #scroll-top-btn:hover {
     transition: ease 0.2s;
     transform: translateY(-5px);
 }
@@ -245,4 +215,90 @@ body {
 #cases-more-link {
     color: white;
     text-decoration: none;
+}
+
+/* About me */
+
+#index-about-me {
+    background-color: #3680CA;
+}
+
+#about-me-pic {
+    width: 300px;
+}
+
+#index-about-me-text {
+    color: white;
+    padding: 20px;
+    margin-left: 80px;
+}
+
+#about-me-btn {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #F3F9FF;
+    padding: 10px 10px;
+    width: 240px;
+    text-align: center;
+
+    color: white;
+    margin-top: 30px;
+}
+
+#about-me-bg-section {
+    margin-top: -40%;
+    margin-bottom: -100px;
+}
+
+#about-me-bg {
+    width: 100%;
+}
+
+/* journey */
+
+.map-pins {
+    width: 30px;
+}
+
+#index-journey {
+    padding: 100px 7%;
+    background-color: #F6F6F6;
+}
+
+#journey-map {
+    width: 450px;
+}
+
+#index-journey-text {
+    color: #444;
+    padding-left: 130px;
+}
+
+/* Scroll to top */
+
+#scroll-top-section {
+    padding: 50px;
+    color: #F3F9FF;
+}
+
+#scroll-top-btn {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #F3F9FF;
+    padding: 10px 10px;
+    width: 240px;
+    text-align: center;
+    background-color: #121212;
+
+    color: white;
+}
+
+#socials-section {
+    padding: 25px 25%;
+}
+
+.socials-icon {
+    width: 30px;
 }

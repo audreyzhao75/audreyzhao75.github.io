@@ -25,6 +25,31 @@
         $(function(){
             $("#nav-placeholder").load("HTML/resNav.html");
         });
+
+        // to scroll back to top
+        // https://codepen.io/desirecode/pen/MJPJqV
+        // $(document).ready(function(){ 
+        //     $(window).scroll(function(){ 
+        //         if ($(this).scrollTop() > 100) { 
+        //             $('#scroll-top-btn').fadeIn(); 
+        //         } else { 
+        //             $('#scroll-top-btn').fadeOut(); 
+        //         } 
+        //     }); 
+        //     $('#scroll-top-btn').click(function(){ 
+        //         $("html, body").animate({ scrollTop: 0 }, 600); 
+        //         return false; 
+        //     }); 
+        // });
+    $(document).ready(function(){ 
+        $('#about-me-nav').click(function(){
+            var element = document.getElementById("index-about-me");
+            element.scrollIntoView();
+            element.scrollIntoView(false);
+            element.scrollIntoView({block: "end"});
+            element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+        });
+    });
     </script>
     <!-- Intro -->
     <div id="allContent">
@@ -73,26 +98,94 @@
         <!-- Short About -->
         <div id="index-about-me" class="section">
             <div class="row">
-                <div class="col-lg-6 order-first text-center vertCenter space50Above" id="about-pic-div">
+                <div class="col-lg-6 order-first text-center vertCenter" id="about-pic-div">
                     <img src="/images/about-me-pic.png" alt="A picture of me!" class="overlap-pic rounded mx-auto" id="about-me-pic">
                 </div>
                 <div class="col-lg-6 order-last space50">
                     <div id="index-about-me-text">
                         <h1>About me</h1>
-                        <p class="lead">I’m currently a senior at the University of California, San Diego studying Design and Interaction and minoring in Computer Science. </p>
+                        <p class="lead">I’m currently a senior at the University of California, San Diego studying Design and Interaction (HCI) and minoring in Computer Science. </p>
                         <p class="lead">I’m passionate about UI/UX design, software development, and ways in which we can better connect the two.</p>
                         <a href="mailto: audreyzhao0306@gmail.com" target="_blank" id="about-me-link"><p class="lead" id="about-me-btn">Email me!</p></a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- <div id="about-me-bg-section">
+        <div id="about-me-bg-section">
             <img src="/images/about-me-bg.svg" id="about-me-bg">
-        </div> -->
+        </div>
+        <div id="index-journey" class="section">
+            <div class="row">
+                <div class="col-lg-4 text-center vertCenter">
+                    <img src="/images/map.png" class="space50Above" id="journey-map">
+                </div>
+                <div class="col-lg-8 space50Above">
+                    <div id="index-journey-text">
+                        <h1>My journey</h1>
+                        <div class="row space50Above">
+                            <div class="col-2 text-center"><img src="/images/map-pins/blue-pin.png" class="map-pins"></div>
+                            <div class="col-8 vertCenter"><p class="lead">March 6, 2001 || Born in San Diego</p></div>
+                        </div>
+                        <div class="row space20Above">
+                            <div class="col-2 text-center"><img src="/images/map-pins/greenpurple-pin.png" class="map-pins"></div>
+                            <div class="col-8 vertCenter"><p class="lead">2002 - 2011 || Lived in Florida (6 years) & Louisiana (3 years) </p></div>
+                        </div>
+                        <div class="row space20Above">
+                            <div class="col-2 text-center"><img src="/images/map-pins/red-pin.png" class="map-pins"></div>
+                            <div class="col-8 vertCenter"><p class="lead">2011 - 2019 || Lived in Alabama, graduated from high school in 2019</p></div>
+                        </div>
+                        <div class="row space20Above">
+                            <div class="col-2 text-center"><img src="/images/map-pins/blue-pin.png" class="map-pins"></div>
+                            <div class="col-8 vertCenter"><p class="lead">2019 || Attending University of California, San Diego (UCSD)</p></div>
+                        </div>
+                        <div class="row space20Above">
+                            <div class="col-2 text-center"><img src="/images/map-pins/red-pin.png" class="map-pins"></div>
+                            <div class="col-8 vertCenter"><p class="lead">2021 || UX Design Intern at Harmony Venture Labs</p></div>
+                        </div>
+                        <div class="row space20Above">
+                            <div class="col-2 text-center"><img src="/images/map-pins/blue-pin.png" class="map-pins"></div>
+                            <div class="col-8 vertCenter"><p class="lead">Present - in San Diego!</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="scroll-top-section">
+            <div class="row"><div class="col text-center vertCenter">
+                <p class="lead">I designed and created this website with Figma, HTML, CSS, Javascript, and Bootstrap!</p>
+                <div id="socials-section">
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://audreyzhao75.github.io/"><img src="/images/github-white.png" class="socials-icon"></a>
+                        </div>
+                        <div class="col">
+                            <a href="https://github.com/audreyzhao75"><img src="/images/linkedin-white.png" class="socials-icon"></a>
+                        </div>
+                        <div class="col">
+                            <a href="mailto: audreyzhao0306@gmail.com" target="_blank" ><img src="/images/email-white.png" class="socials-icon"></a>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="lead space20Above" id="scroll-top-btn"><a id="cases-more-link">Back to top</a></button>
+            </div></div>
+        </div>
+
         <!-- About me -->
         <!-- <div id="about-me-main-section" class="all-cards section">
         </div> -->
+        <!-- <div class="row">
+                            <div class="col-6 vertCenter">
+                                <h1>About me</h1>
+                            </div>
+                            <div class="col-1">
+                                <img src="/images/github-white.png" class="socials-icon">
+                            </div>
+                            <div class="col-1">
+                                <img src="/images/linkedin-white.png" class="socials-icon">
+                            </div>
+                        </div> -->
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="JS/caseCards.js"></script>
+    <script src="/JS/index.js"></script>
 </body>
