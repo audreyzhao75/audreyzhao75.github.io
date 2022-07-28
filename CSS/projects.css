@@ -54,6 +54,32 @@ li, b, ol {
     margin-bottom: 1%;
 }
 
+.top50 {
+    margin-top: 50px;
+}
+.bot50 {
+    margin-bottom: 50px;
+}
+
+.scroll-top-btn {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #003251;
+    padding: 10px 10px;
+    width: 240px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+
+    color: #003251;
+    /* 0089de */
+}
+
+.scroll-top-btn:hover {
+    transition: ease 0.2s;
+    transform: translateY(-5px);
+}
+
 /* --------------------------------------- */
 /* ================ WEPET ================ */
 /* --------------------------------------- */
@@ -600,4 +626,13 @@ li, b, ol {
 
 #Spatch-1 {
     background-color: white;
+}
+
+.spatch-list {
+    font-size: large;
+}
+
+.mvp-spatch {
+    box-shadow: 0px 0px 0px 3px #0089de;
+    border-radius: 5px;
 }

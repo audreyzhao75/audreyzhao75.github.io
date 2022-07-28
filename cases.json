@@ -8,18 +8,18 @@
             "alt": "WePet App Case Study Thumbnail"
         },
         {
-            "name": "HVL Design Challenge",
-            "href": "/caseStudies/HVL-full-design-challenge.html",
-            "id": "HVLDC-thumb",
-            "image": "/IndexThumbs/Design-challenge-thumb.png",
-            "alt": "TritonHacks Case Study Thumbnail"
-        },
-        {
             "name": "Twitter Misinformation",
             "href": "/caseStudies/twitterMisinfo.html",
             "id": "Twitter-thumb",
             "image": "/IndexThumbs/Twitter-Misinfo-Thumb.png",
             "alt": "Twitter Misinformation Case Study Thumbnail"
+        } ,
+        {
+            "name": "Spatch",
+            "href": "/caseStudies/Spatch.html",
+            "id": "Spatch-thumb",
+            "image": "/IndexThumbs/Spatch-thumb.svg",
+            "alt": "Spatch Case Study Thumbnail"
         } ,
         {
             "name": "HVL internship",
@@ -29,18 +29,18 @@
             "alt": "HVL Internship Thumbnail"
         } ,
         {
+            "name": "HVL Design Challenge",
+            "href": "/caseStudies/HVL-full-design-challenge.html",
+            "id": "HVLDC-thumb",
+            "image": "/IndexThumbs/Design-challenge-thumb.png",
+            "alt": "TritonHacks Case Study Thumbnail"
+        },
+        {
             "name": "Piazza",
             "href": "/caseStudies/Piazza.html",
             "id": "Piazza-thumb",
             "image": "/IndexThumbs/Piazza-thumb.svg",
             "alt": "Piazza Case Study Thumbnail"
-        } ,
-        {
-            "name": "Spatch",
-            "href": "",
-            "id": "",
-            "image": "/IndexThumbs/WIP-Spatch.png",
-            "alt": "Spatch Case Study Thumbnail"
         } ,
         {
             "name": "SquadUp Gaming",
@@ -55,6 +55,20 @@
             "id": "TritonHacks-thumb",
             "image": "/IndexThumbs/WIP-TritonHacks.png",
             "alt": "TritonHacks 2021 Case Study Thumbnail"
+        },
+        {
+            "name": "VR Research Intern",
+            "href": "",
+            "id": "VR-Research-thumb",
+            "image": "/IndexThumbs/WIP-VR-Research-Intern.png",
+            "alt": "VR Research Case Study Thumbnail"
+        },
+        {
+            "name": "MaXentric Intern",
+            "href": "",
+            "id": "MaXentric-thumb",
+            "image": "/IndexThumbs/WIP-MaXentric-Intern.png",
+            "alt": "MaXentric Case Study Thumbnail"
         } 
     ]
 }
