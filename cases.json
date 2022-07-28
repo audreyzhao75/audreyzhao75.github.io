@@ -2,6 +2,7 @@
     "cards": [
         {
             "name": "WePet",
+            "year": "2021",
             "href": "/caseStudies/WePet.html",
             "id": "WePet-thumb",
             "image": "/IndexThumbs/WePet-thumb.svg",
@@ -9,6 +10,7 @@
         },
         {
             "name": "Twitter Misinformation",
+            "year": "2021",
             "href": "/caseStudies/twitterMisinfo.html",
             "id": "Twitter-thumb",
             "image": "/IndexThumbs/Twitter-Misinfo-Thumb.png",
@@ -16,6 +18,7 @@
         } ,
         {
             "name": "Spatch",
+            "year": "2021",
             "href": "/caseStudies/Spatch.html",
             "id": "Spatch-thumb",
             "image": "/IndexThumbs/Spatch-thumb.svg",
@@ -23,6 +26,7 @@
         } ,
         {
             "name": "HVL internship",
+            "year": "2021",
             "href": "/caseStudies/HVL-internship.html",
             "id": "HVL-thumb",
             "image": "/IndexThumbs/HVL-thumb.png",
@@ -30,6 +34,7 @@
         } ,
         {
             "name": "HVL Design Challenge",
+            "year": "2021",
             "href": "/caseStudies/HVL-full-design-challenge.html",
             "id": "HVLDC-thumb",
             "image": "/IndexThumbs/Design-challenge-thumb.png",
@@ -37,6 +42,7 @@
         },
         {
             "name": "Piazza",
+            "year": "2020",
             "href": "/caseStudies/Piazza.html",
             "id": "Piazza-thumb",
             "image": "/IndexThumbs/Piazza-thumb.svg",
@@ -44,6 +50,7 @@
         } ,
         {
             "name": "SquadUp Gaming",
+            "year": "Coming Soon",
             "href": "",
             "id": "",
             "image": "/IndexThumbs/WIP-SquadUp.png",
@@ -51,6 +58,7 @@
         },
         {
             "name": "TritonHacks 2021",
+            "year": "Coming Soon",
             "href": "",
             "id": "TritonHacks-thumb",
             "image": "/IndexThumbs/WIP-TritonHacks.png",
@@ -58,6 +66,7 @@
         },
         {
             "name": "VR Research Intern",
+            "year": "Coming Soon",
             "href": "",
             "id": "VR-Research-thumb",
             "image": "/IndexThumbs/WIP-VR-Research-Intern.png",
@@ -65,10 +74,19 @@
         },
         {
             "name": "MaXentric Intern",
+            "year": "Coming Soon",
             "href": "",
             "id": "MaXentric-thumb",
             "image": "/IndexThumbs/WIP-MaXentric-Intern.png",
             "alt": "MaXentric Case Study Thumbnail"
+        } ,
+        {
+            "name": "Artree",
+            "year": "Coming Soon",
+            "href": "",
+            "id": "Artree-thumb",
+            "image": "/IndexThumbs/WIP-Artree.svg",
+            "alt": "Artree Case Study Thumbnail"
         } 
     ]
 }
