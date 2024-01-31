@@ -1,6 +1,22 @@
 {
     "cards": [
         {
+            "name": "KORG",
+            "year": "2023",
+            "href": "",
+            "id": "KORG-thumb",
+            "image": "/IndexThumbs/WIP-KORG.svg",
+            "alt": "KORG Case Study Thumbnail"
+        },
+        {
+            "name": "MaXentric",
+            "year": "2023",
+            "href": "",
+            "id": "MaX-thumb",
+            "image": "/IndexThumbs/WIP-MaXentric-Intern.svg",
+            "alt": "MaXentric Case Study Thumbnail"
+        },
+        {
             "name": "TritonHacks 2021",
             "year": "2022",
             "href": "/caseStudies/TritonHacks.html",
@@ -79,6 +95,6 @@
             "id": "Artree-thumb",
             "image": "/IndexThumbs/WIP-Artree.svg",
             "alt": "Artree Case Study Thumbnail"
-        } 
+        }
     ]
 }
