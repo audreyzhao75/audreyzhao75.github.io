@@ -1,6 +1,14 @@
 {
     "cards": [
         {
+            "name": "TritonHacks 2021",
+            "year": "2022",
+            "href": "/caseStudies/TritonHacks.html",
+            "id": "TritonHacks-thumb",
+            "image": "/IndexThumbs/TritonHacks-thumb.svg",
+            "alt": "TritonHacks 2021 Case Study Thumbnail"
+        },
+        {
             "name": "WePet",
             "year": "2021",
             "href": "/caseStudies/WePet.html",
@@ -50,39 +58,23 @@
         } ,
         {
             "name": "SquadUp Gaming",
-            "year": "Coming Soon",
-            "href": "",
+            "year": "2021",
+            "href": "/caseStudies/SquadUpGaming.html",
             "id": "",
-            "image": "/IndexThumbs/WIP-SquadUp.png",
+            "image": "/IndexThumbs/SquadUp-Thumb.svg",
             "alt": "SquadUp Case Study Thumbnail"
         },
         {
-            "name": "TritonHacks 2021",
-            "year": "Coming Soon",
-            "href": "",
-            "id": "TritonHacks-thumb",
-            "image": "/IndexThumbs/WIP-TritonHacks.png",
-            "alt": "TritonHacks 2021 Case Study Thumbnail"
-        },
-        {
             "name": "VR Research Intern",
-            "year": "Coming Soon",
+            "year": "2022",
             "href": "",
             "id": "VR-Research-thumb",
             "image": "/IndexThumbs/WIP-VR-Research-Intern.png",
             "alt": "VR Research Case Study Thumbnail"
         },
         {
-            "name": "MaXentric Intern",
-            "year": "Coming Soon",
-            "href": "",
-            "id": "MaXentric-thumb",
-            "image": "/IndexThumbs/WIP-MaXentric-Intern.png",
-            "alt": "MaXentric Case Study Thumbnail"
-        } ,
-        {
             "name": "Artree",
-            "year": "Coming Soon",
+            "year": "2022",
             "href": "",
             "id": "Artree-thumb",
             "image": "/IndexThumbs/WIP-Artree.svg",

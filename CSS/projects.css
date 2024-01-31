@@ -628,11 +628,89 @@ li, b, ol {
     background-color: white;
 }
 
-.spatch-list {
+.spatch-list, .large-li {
     font-size: large;
 }
 
 .mvp-spatch {
     box-shadow: 0px 0px 0px 3px #0089de;
     border-radius: 5px;
+}
+
+
+/* --------------------------------------------------------- */
+/* ===================== TRITONHACKS ======================= */
+/* --------------------------------------------------------- */
+
+
+#THIntro {
+    background-color: #FFFFFF;
+}
+
+#TH21 {
+    background-color: #150031;
+    color: #FFFFFF;
+}
+
+#TH22 {
+    background-color: #F3ECDC;
+    color: #000000;
+}
+
+#TH-conclusion {
+    background-color: #FFFFFF;
+}
+
+
+/* --------------------------------------------------------- */
+/* ==================== SQUADUP GAMING ===================== */
+/* --------------------------------------------------------- */
+
+
+#SUIntro {
+    background-color: #FFFFFF;
+}
+
+#SU-1 {
+    background-color: white;
+    color: black;
+    background-image: url("/caseStudies/SquadUpImages/statmentbg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#SU-2 {
+    background-color: white;
+}
+
+#SU-3 {
+    background-color: #FFF2FF;
+}
+
+#SU-4 {
+    background-color: white;
+}
+
+#SU-5 {
+    background-color: #D8F7FF;
+}
+
+.proto-section {
+    /* background-color: #dff3ff; */
+    color: black;
+    /* border-radius: 10px; */
+    margin: 0px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+}
+
+.test {
+    background-color: red;
+}
+
+.test2 {
+    background-color: blue;
 }
