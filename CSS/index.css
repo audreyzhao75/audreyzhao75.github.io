@@ -217,6 +217,71 @@ body {
     text-decoration: none;
 }
 
+#work-experiences {
+    background-color: #c5e2ff;
+}
+
+#work-title {
+    color: #003467;
+}
+
+.work-subtext {
+
+}
+
+.work-text {
+    margin-top: 10px;
+}
+
+#max-work-title {
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    background: rgb(5,20,39);
+    background: linear-gradient(90deg, rgba(5,20,39,1) 0%, rgba(63,98,174,1) 52%, rgba(29,172,228,1) 100%);
+}
+
+#vr-work-title {
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    background: rgb(5,20,39);
+    background: linear-gradient(90deg, rgba(23,43,73,1) 0%, rgba(198,146,20,1) 100%);
+}
+
+#harmony-work-title {
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    background: rgb(5,20,39);
+    background: linear-gradient(90deg, rgba(31,153,145,1) 1%, rgba(35,106,130,1) 100%);}
+
+.work-title-text {
+    margin: auto;
+    color: white;
+}
+
+.work-card {
+    padding: 20px;
+    background-color: white;
+    min-height: 300px;
+    border-radius: 10px;
+    min-width: 300px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.work-scroll-container {
+    overflow: auto;
+    white-space:nowrap;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /* About me */
 
 #index-about-me {
