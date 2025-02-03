@@ -10,7 +10,7 @@ body{
 }
 
 .title {
-    color: white;
+    color: black;
     /* background-color: rgb(12, 92, 146); */
     /* padding: 20px; */
     border-radius: 10px;
@@ -31,8 +31,18 @@ case-card {
     margin-top: 0px;
 }
 
+
+
+case-card:hover {
+    /* transform: scale(1.05);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out; */
+    transition: ease 0.2s;
+    transform: translateY(-5px);
+}
+
 .section-title {
-    color: white;
+    color: black;
     margin-top: 60px;
     margin-bottom: 20px;
     text-align: left;

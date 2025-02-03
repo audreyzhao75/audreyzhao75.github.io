@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="description" content="Audrey's Portfolio">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title>Audrey's Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/resNav.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="/images/az-logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="allContent">
+        <!-- Nav -->
+        <div id="nav-placeholder"></div>
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script src="JS/resNav.js"></script>
+        <script>
+            $(function(){
+                $("#nav-placeholder").load("HTML/resNav.html");
+            });
+        $(document).ready(function(){ 
+            $('#about-me-nav').click(function(){
+                var element = document.getElementById("index-about-me");
+                element.scrollIntoView();
+                element.scrollIntoView(false);
+                element.scrollIntoView({block: "end"});
+                element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+            });
+        });
+        </script>
+
+
+        <!-- Intro -->
+        <!-- <div id="home-about-section" class="d-flex bg-light-blue" style="height: 200px">
+            <div>hi</div>
+        </div> -->
+
+
+
+
+    <!-- <img src="/images/sun.svg" id="intro-overlap-sun"> -->
+        <div id="index-intro" class="section">
+            <!-- <div id="cutoff-top">
+                <img src="/indexImages/intro-shapes-top.svg" id="intro-overlap-design">
+            </div> -->
+            <div class="row">
+                <div class="col-lg-6 order-first text-center" id="intro-home-text">
+                    <h1 class="display-4">Hi, I'm <div id="myName">Audrey Zhao</div></h1>
+                    <!-- <p id="header-tags">UI/UX Design ⋅ Computer Science</p> -->
+                    <p class="lead">Designer & Developer</p>
+                </div>
+                <div class="col-lg-6 order-last text-center vertCenter" id="intro-home-pic">
+                    <img src="/Assets/photos/audrey_yosemite.JPG" alt="A picture of me!" class="rounded mx-auto" id="myPic">
+                    <!-- <img src="/indexImages/intro-top-pic.jpg" alt="A picture of me!" style="width:100%" class="rounded float-left" id="myPic"> -->
+                    <!-- <img src="/indexImages/intro-top-pic.jpg" alt="A picture of me!" class="overlap-pic rounded mx-auto" id="myPic"> -->
+                    <!-- <img src="/indexImages/intro-shapes-top.svg" id="intro-overlap-design"> -->
+                </div>
+            </div>
+        </div>
+        <div id="project-display" class="all-cards section">
+            <div id="cases-container" class="row">
+                <div class="CaseCard col-lg-6 mb-4">
+                    <a href="/caseStudies/SquadUpGaming.html">
+                        <img id="" class="card-img-top" src="/IndexThumbs/SquadUp-Thumb.svg" alt="HVL Internship Thumbnail"></a>
+                </div>
+                <div class="CaseCard col-lg-6 mb-4">
+                    <a href="/caseStudies/twitterMisinfo.html">
+                        <img id="Twitter-thumb" class="card-img-top" src="/IndexThumbs/Twitter-Misinfo-Thumb.png" alt="Twitter Misinformation Case Study Thumbnail"></a>
+                </div>
+                <div class="CaseCard col-lg-6 mb-4">
+                    <a href="/caseStudies/HVL-internship.html">
+                        <img id="HVL-thumb" class="card-img-top" src="/IndexThumbs/HVL-thumb.png" alt="HVL Internship Thumbnail"></a>
+                </div>
+                <div class="CaseCard col-lg-6 mb-4">
+                    <a href="/caseStudies/Spatch.html">
+                        <img id="Spatch-thumb" class="card-img-top" src="/IndexThumbs/Spatch-thumb.svg" alt="Spatch App Case Study Thumbnail"></a>
+                </div>
+                <!-- <div class="CaseCard col-lg-6 mb-4">
+                    <a href="/caseStudies/HVL-full-design-challenge.html">
+                        <img id="HVLDC-thumb" class="card-img-top" src="/IndexThumbs/Design-challenge-thumb.png" alt="TritonHacks Case Study Thumbnail"></a>
+                </div> -->
+                <!-- <div class="CaseCard col-lg-6 mb-4">
+                    <a href="/caseStudies/WePet.html">
+                        <img id="WePet-thumb" class="card-img-top" src="/IndexThumbs/WePet-thumb.svg" alt="WePet App Case Study Thumbnail"></a>
+                </div> -->
+            </div>
+            <div class="row"><div class="col text-center vertCenter">
+                <a href="/AllCases.html" id="cases-more-link"><button type="button" class="lead" id="cases-more-btn">View more case studies</button></a>
+            </div></div>
+        </div>
+        <!-- <div class="section" id="work-experiences">
+            <h1 id="work-title">A look into my professional career...</h1>
+            <div class="work-scroll-container">
+                <div class="work-card">
+                    <div id="max-work-title"><h3 class="work-title-text">Design Engineer</h3></div>
+                    <b><a href="https://maxentric.com/">@MaXentric Technologies</a></b>
+                    <div class="work-text">sum</div>
+                </div>
+                <div class="work-card">
+                    <div id="vr-work-title"><h3 class="work-title-text">VR Research Intern</h3></div>
+                    <b><a href="https://designlab.ucsd.edu/">@UCSD Design Lab</a></b>
+                    <div class="work-text">sum</div>
+                </div>
+                <div class="work-card">
+                    <div id="harmony-work-title"><h3 class="work-title-text">UX Design Intern</h3></div>
+                    <b><a href="https://harmonyventurelabs.com/">@Harmony Venture Labs</a></b>
+                    <div class="work-text">sum</div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Short About -->
+        <div id="index-about-me" class="section">
+            <div class="row">
+                <div class="col-lg-6 order-first text-center vertCenter" id="about-pic-div">
+                    <img src="/images/about-me-pic.png" alt="A picture of me!" class="overlap-pic rounded mx-auto" id="about-me-pic">
+                </div>
+                <div class="col-lg-6 order-last space20Above">
+                    <div id="index-about-me-text">
+                        <h1>About me</h1>
+                        <p class="lead">I’m currently a Design Engineer at MaXentric Technologies.</p>
+                        <p class="lead">I’m passionate about UI/UX design, software development, and ways in which we can better connect the two.</p>
+                        <a href="mailto: audreyzhao0306@gmail.com" target="_blank" id="about-me-link"><p class="lead" id="about-me-btn">Email me!</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="about-me-bg-section">
+            <img src="/images/about-me-bg.svg" id="about-me-bg">
+        </div>
+        <div id="index-journey" class="section">
+            <div class="row">
+                <div class="col-lg-4 text-center vertCenter">
+                    <img src="/images/map.png" class="space50Above" id="journey-map">
+                </div>
+                <div class="col-lg-8 space50Above">
+                    <div id="index-journey-text">
+                        <h1>My journey</h1>
+                        <div class="row space50Above">
+                            <div class="col-2 text-center"><img src="/images/map-pins/blue-pin.png" class="map-pins"></div>
+                            <div class="col-8 vertCenter"><p class="lead">2001 || Born in San Diego</p></div>
+                        </div>
+                        <div class="row space20Above">
+                            <div class="col-2 text-center"><img src="/images/map-pins/greenpurple-pin.png" class="map-pins"></div>
+                            <div class="col-8 vertCenter"><p class="lead">2002 - 2011 || Lived in Florida (6 years) & Louisiana (3 years) </p></div>
+                        </div>
+                        <div class="row space20Above">
+                            <div class="col-2 text-center"><img src="/images/map-pins/red-pin.png" class="map-pins"></div>
+                            <div class="col-8 vertCenter"><p class="lead">2011 - 2019 || Lived in Alabama, graduated from high school in 2019</p></div>
+                        </div>
+                        <div class="row space20Above">
+                            <div class="col-2 text-center"><img src="/images/map-pins/blue-pin.png" class="map-pins"></div>
+                            <div class="col-8 vertCenter"><p class="lead">2019 || Started attending University of California, San Diego (UCSD)</p></div>
+                        </div>
+                        <div class="row space20Above">
+                            <div class="col-2 text-center"><img src="/images/map-pins/red-pin.png" class="map-pins"></div>
+                            <div class="col-8 vertCenter"><p class="lead">2021 || UX Design Intern at Harmony Venture Labs</p></div>
+                        </div>
+                        <div class="row space20Above">
+                            <div class="col-2 text-center"><img src="/images/map-pins/blue-pin.png" class="map-pins"></div>
+                            <div class="col-8 vertCenter"><p class="lead">2022 || Graduated from UCSD with a B.S. in Cognitive Science with a Specialization in Design and Interaction and minor in Computer Science (3 years)</p></div>
+                        </div>
+                        <div class="row space20Above">
+                            <div class="col-2 text-center"><img src="/images/map-pins/blue-pin.png" class="map-pins"></div>
+                            <div class="col-8 vertCenter"><p class="lead">2022 || Software Innovator Intern at MaXentric Technologies & VR Design Lab Intern at UCSD</p></div>
+                        </div>
+                        <div class="row space20Above">
+                            <div class="col-2 text-center"><img src="/images/map-pins/blue-pin.png" class="map-pins"></div>
+                            <div class="col-8 vertCenter"><p class="lead">Present || Design Engineer at MaXentric Technologies</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="scroll-top-section">
+            <div class="row"><div class="col text-center vertCenter">
+                <p class="lead">I designed and created this website with Figma, HTML, CSS, Javascript, and Bootstrap!</p>
+                <div id="socials-section">
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://github.com/audreyzhao75"><img src="/images/github-white.png" class="socials-icon"></a>
+                        </div>
+                        <div class="col">
+                            <a href="https://www.linkedin.com/in/audreycz/"><img src="/images/linkedin-white.png" class="socials-icon"></a>
+                        </div>
+                        <div class="col">
+                            <a href="mailto: audreyzhao0306@gmail.com" target="_blank" ><img src="/images/email-white.png" class="socials-icon"></a>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="lead space20Above" id="scroll-top-btn"><a>Back to top</a></button>
+            </div></div>
+        </div>
+
+        <!-- About me -->
+        <!-- <div id="about-me-main-section" class="all-cards section">
+        </div> -->
+        <!-- <div class="row">
+                            <div class="col-6 vertCenter">
+                                <h1>About me</h1>
+                            </div>
+                            <div class="col-1">
+                                <img src="/images/github-white.png" class="socials-icon">
+                            </div>
+                            <div class="col-1">
+                                <img src="/images/linkedin-white.png" class="socials-icon">
+                            </div>
+                        </div> -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="JS/caseCards.js"></script>
+    <script src="/JS/index.js"></script>
+</body>

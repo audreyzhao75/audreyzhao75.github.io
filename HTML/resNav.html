@@ -1,15 +1,112 @@
-<div class="topnav" id="myTopnav">
+<nav class="navbar navbar-expand-sm p-2">
+  <div class="container-fluid ">
+    <a class="col-auto p-2 vertCenter" href="/"><img id="az-logo-pic" src="/Assets/logos/AZ-logo24.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- <img src="/images/menu.svg" /> -->
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav p-4 p-sm-0">
+        <li class="nav-item">
+            <a class="nav-link nav-hov" href="/AllCases.html">Experience</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link nav-hov" href="mailto: audreyzhao0306@gmail.com">Contact</a>
+        </li>
+        </ul>
+    </div>
+  </div>
+</nav>
+<!-- moves inward for whatever reason???? -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<style>
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: small;
+    max-width: 100%;
+}
+
+.navbar, .navbar-expand-md {
+    margin: 0px;
+    padding: 0px;
+}
+
+#az-logo-pic {
+    width: 40px;
+}
+
+#az-logo-pic:hover {
+  transition: ease 0.2s;
+  box-shadow: 0px 0px 12px #e6e6e6;
+}
+
+.nav-hov {
+  float: right;
+  display: block;
+  color: #818181;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+}
+
+.nav-hov:hover {
+  color: #0072D9;
+}
+
+.nav-hov:after {
+  content: '';
+  position: absolute;
+  /* text-align: center; */
+  width: 75%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 11px;
+  left: 14%;
+  background-color: #0072D9;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-hov:hover:after {
+  /* text-decoration: underline; */
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* general */
+
+.vertCenter {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+</style>
+
+<!-- <div class="topnav" id="myTopnav">
     <div class="row">
         <div class="col-2">
-            <a href="/index.html" class="left-item"><img id="az-logo-pic" src="/images/az-logo.png"></a>
+            <a href="/index.html" class="left-item"><img id="az-logo-pic" src="/Assets/logos/AZ-logo24.png"></a>
         </div>
-        <div class="col-10">
-            <a class="right-item" href="mailto: audreyzhao0306@gmail.com" target="_blank"><div id="ContactButton">Contact Me</div></a>
+        <div class="col-10 text-black">
+            <a class="hov right-item" href="mailto: audreyzhao0306@gmail.com">Contact</a>
             <a class="hov right-item" id="about-me-nav" href="/index.html#index-about-me">About</a>
             <a class="hov right-item" href="/AllCases.html">Projects</a>
-            <!-- <a class="hov right-item" href="/index.html">Home</a>         -->
         </div>
     </div>
     
-    <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> -->
-</div>
+</div> -->
