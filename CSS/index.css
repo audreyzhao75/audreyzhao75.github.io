@@ -166,8 +166,11 @@ body {
 
 #index-case-studies {
     /* background-color: #cef5ff; */
+    margin: 0px;
+    padding: 0px;
     background-image: linear-gradient(to right, #cef5ff , rgb(255, 255, 224));
 }
+
 
 .CaseCard {
     max-width: 400px;

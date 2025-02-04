@@ -18,6 +18,7 @@ async function init() {
     for (let i = 0; i < data.cards.length; i++) {
         let card = document.createElement("case-card");
         card.data = data.cards[i];
+        card.className = "case_card";
         // find which section to put it in
         if(sectionTitles.includes(data.cards[i].year)) {
             const yearElement = document.getElementById(data.cards[i].year);

@@ -5,27 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
-    <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/index.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" href="/images/az-logo.png" type="image/x-icon"> -->
-
-
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    <link rel="stylesheet" href="/CSS/navbar.css"> -->
-
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
-
-    <link rel="stylesheet" href="CSS/index.css"> 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="/images/az-logo.png" type="image/x-icon">
-
+    
+    <link rel="stylesheet" href="CSS/index.css"> 
     <title>Audrey Zhao's Portfolio</title>
 </head>
 <!-- todo:  temp fix for x scrolling style="overflow-x: hidden" -->
@@ -38,11 +26,61 @@
         });
     </script>
 
-   <div class="container py-4">
-         <div class="row align-items-center justify-content-center">
-            <div class="row g-4">
-                <!--  style="max-width: 1100px;" -->
-                   
+    <div class="container-fluid">
+        <div class="py-5">
+            <div class="row align-items-center justify-content-center">
+                <div class="row g-4" style="max-width: 1100px;">
+                    <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
+                        <div class="">
+                            <h1>Hey! I'm <span id="myName">Audrey Zhao</span></h1>
+                            <h4 class="subtitle-index-text">Fullstack Developer and UI/UX Designer</h4>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center text-center">
+                        <img src="/Assets/photos/portfolio-me-pic.png" alt="A picture of me!" id="myPic-home">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="index-case-studies" class="test1">
+        <div class="row align-items-center justify-content-center">
+            <div class="text-center" style="max-width: 1100px;">
+                <div class="m-5">
+                    <div class="title-index-text">Case Studies</div>
+                    <div class="subtitle-index-text">Projects exploring user-centered solutions</div>
+                </div>
+
+                <div class="row text-center align-items-center justify-content-center p-2">
+                    <div class="CaseCard col-lg-6 mb-4">
+                        <a href="/caseStudies/SquadUpGaming.html">
+                            <img class="card-img-top" src="/IndexThumbs/SquadUp-Thumb.svg" alt="HVL Internship Thumbnail"></a>
+                    </div>
+                    <div class="CaseCard col-lg-6 mb-4">
+                        <a href="/caseStudies/twitterMisinfo.html">
+                            <img class="card-img-top" src="/IndexThumbs/Twitter-Misinfo-Thumb.png" alt="Twitter Misinformation Case Study Thumbnail"></a>
+                    </div>
+                    <div class="CaseCard col-lg-6 mb-4">
+                        <a href="/caseStudies/WePet.html">
+                            <img class="card-img-top" src="/IndexThumbs/WePet-thumb.svg" alt="WePet App Case Study Thumbnail"></a>
+                    </div>
+                    <div class="CaseCard col-lg-6 mb-4">
+                        <a href="/caseStudies/Spatch.html">
+                            <img class="card-img-top" src="/IndexThumbs/Spatch-thumb.svg" alt="Spatch App Case Study Thumbnail"></a>
+                    </div>
+                </div>
+                <div class="row pb-4"><div class="col text-center">
+                    <a href="/AllCases.html" id="cases-more-link"><button type="button" class="lead" id="cases-more-btn">View more case studies</button></a>
+                </div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="test2" style="width: 100%;">
+        <div class="py-4">
+            <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center">
                     <div>
                         <h1>Hey! I'm <span id="myName">Audrey Zhao</span></h1>
@@ -55,13 +93,15 @@
                     <img src="/Assets/photos/portfolio-me-pic.png" alt="A picture of me!" id="myPic-home">
                 </div>
             </div>
-        </div> 
+        </div>
     </div>
- 
-    <section id="index-case-studies">
+
+    
+    
+    <div id="index-case-studies" class="test1">
         <div class="row align-items-center justify-content-center">
-            <div class="g-4 mb-4 text-center" style="max-width: 1100px;">
-                <div class="my-4 py-4">
+            <div class="text-center" style="max-width: 1100px;">
+                <div class="m-4">
                     <div class="title-index-text">Case Studies</div>
                     <div class="subtitle-index-text">Explore my projects with user-centered solutions</div>
                 </div>
@@ -76,12 +116,12 @@
                             <img class="card-img-top" src="/IndexThumbs/Twitter-Misinfo-Thumb.png" alt="Twitter Misinformation Case Study Thumbnail"></a>
                     </div>
                     <div class="CaseCard col-lg-6 mb-4">
-                        <a href="/caseStudies/Spatch.html">
-                            <img class="card-img-top" src="/IndexThumbs/Spatch-thumb.svg" alt="Spatch App Case Study Thumbnail"></a>
-                    </div>
-                    <div class="CaseCard col-lg-6 mb-4">
                         <a href="/caseStudies/WePet.html">
                             <img class="card-img-top" src="/IndexThumbs/WePet-thumb.svg" alt="WePet App Case Study Thumbnail"></a>
+                    </div>
+                    <div class="CaseCard col-lg-6 mb-4">
+                        <a href="/caseStudies/Spatch.html">
+                            <img class="card-img-top" src="/IndexThumbs/Spatch-thumb.svg" alt="Spatch App Case Study Thumbnail"></a>
                     </div>
                 </div>
                 <div class="row pb-4"><div class="col text-center">
@@ -89,7 +129,60 @@
                 </div></div>
             </div>
         </div>
-    </section>
+    </div> -->
+
+    <!-- <div class="test3" style="width: 100%;">
+        <div class="py-4 test2">
+            <div class="row align-items-center justify-content-center">
+                <div class="row g-4" style="max-width: 1100px;">
+                    <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center">
+                        <div>
+                            <h1>Hey! I'm <span id="myName">Audrey Zhao</span></h1>
+                            <h4 class="subtitle-index-text">Fullstack Developer and UI/UX Designer</h4>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center text-center">
+                        <img src="/Assets/photos/portfolio-me-pic.png" alt="A picture of me!" id="myPic-home">
+                    </div>
+                </div>
+            </div> 
+        </div>
+    
+        <div id="index-case-studies" class="test1">
+            <div class="row align-items-center justify-content-center">
+                <div class="text-center" style="max-width: 1100px;">
+                    <div class="m-4">
+                        <div class="title-index-text">Case Studies</div>
+                        <div class="subtitle-index-text">Explore my projects with user-centered solutions</div>
+                    </div>
+
+                    <div class="row text-center align-items-center justify-content-center p-2">
+                        <div class="CaseCard col-lg-6 mb-4">
+                            <a href="/caseStudies/SquadUpGaming.html">
+                                <img class="card-img-top" src="/IndexThumbs/SquadUp-Thumb.svg" alt="HVL Internship Thumbnail"></a>
+                        </div>
+                        <div class="CaseCard col-lg-6 mb-4">
+                            <a href="/caseStudies/twitterMisinfo.html">
+                                <img class="card-img-top" src="/IndexThumbs/Twitter-Misinfo-Thumb.png" alt="Twitter Misinformation Case Study Thumbnail"></a>
+                        </div>
+                        <div class="CaseCard col-lg-6 mb-4">
+                            <a href="/caseStudies/WePet.html">
+                                <img class="card-img-top" src="/IndexThumbs/WePet-thumb.svg" alt="WePet App Case Study Thumbnail"></a>
+                        </div>
+                        <div class="CaseCard col-lg-6 mb-4">
+                            <a href="/caseStudies/Spatch.html">
+                                <img class="card-img-top" src="/IndexThumbs/Spatch-thumb.svg" alt="Spatch App Case Study Thumbnail"></a>
+                        </div>
+                    </div>
+                    <div class="row pb-4"><div class="col text-center">
+                        <a href="/AllCases.html" id="cases-more-link"><button type="button" class="lead" id="cases-more-btn">View more case studies</button></a>
+                    </div></div>
+                </div>
+            </div>
+        </div>
+    </div> -->
                         <!-- <div id="socials-section">
                             <div class="row">
                                 <div class="col">

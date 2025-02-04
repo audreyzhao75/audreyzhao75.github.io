@@ -10,17 +10,24 @@ body{
 }
 
 .title {
-    color: black;
-    /* background-color: rgb(12, 92, 146); */
+    color: rgb(0, 2, 102);
+    background-image: linear-gradient(to left, #e6fcff , rgb(218, 233, 255));
     /* padding: 20px; */
-    border-radius: 10px;
+    border-radius: 5px;
+}
+.subtitle-index-text {
+    font-size: medium;
+    text-decoration: none;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
 }
 
 .top {
     margin-top: 50px;
 }
 
-case-card {
+case-card, .case_card {
     height: auto;
     width: 32%;
     min-width: 300px;
