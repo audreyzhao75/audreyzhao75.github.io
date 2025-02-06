@@ -120,6 +120,12 @@ body {
     border-radius: 50%;
 }
 
+/* #myPic-home:hover {
+    
+    transition: ease 0.2s;
+    box-shadow: 0px 0px 12px #161616;
+} */
+
 
 #myName {
     display: inline-block;
@@ -177,7 +183,7 @@ body {
 }
 
 
-.card-img-top:hover {
+.card-img-top:hover, .socials-icon:hover {
     /* transform: scale(1.05);
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out; */
@@ -211,3 +217,56 @@ body {
     transform: translateY(-5px);
     box-shadow: 0px 0px 12px #e6e6e6;
 }
+
+#socials-section {
+    filter: invert(1);
+    margin-top: 20px;
+}
+
+.socials-icon {
+    width: 25px;
+}
+
+
+#index-about-me {
+    background-color: #3680CA;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    z-index: 2;
+}
+
+
+#about-me-pic {
+    width: 300px;
+}
+
+#index-about-me-text {
+    color: white;
+    padding: 20px;
+    margin-left: 80px;
+}
+#about-me-link:hover {
+    text-decoration: none;
+}
+#about-me-btn {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #F3F9FF;
+    padding: 10px 10px;
+    width: 240px;
+    text-align: center;
+
+    color: white;
+    margin-top: 30px;
+}
+
+
+/* #about-me-bg-section {
+    margin-top: -40%;
+    margin-bottom: -100px;
+    z-index: 1;
+}
+#about-me-bg {
+    width: 100%;
+} */
