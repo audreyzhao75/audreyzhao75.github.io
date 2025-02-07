@@ -237,7 +237,7 @@ body {
 
 
 #about-me-pic {
-    width: 300px;
+    width: 400px;
 }
 
 #index-about-me-text {
@@ -262,10 +262,47 @@ body {
 }
 
 
+#index-journey {
+    background-color: #F6F6F6;
+}
+#journey-map {
+    width: 450px;
+}
+.space20Above {
+    margin-top: 20px;
+}
+.space50Above {
+    margin-top: 50px;
+}
+#index-journey-text {
+    color: #444;
+    padding-left: 130px;
+}
+
+
+
+#scroll-top-section {
+    padding: 50px;
+    color: #F3F9FF;
+    background-color: #000000;
+    width: 100%;
+}
+
+#scroll-top-btn {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #F3F9FF;
+    padding: 10px 10px;
+    width: 240px;
+    text-align: center;
+    background-color: #121212;
+
+    color: white;
+}
 /* #about-me-bg-section {
-    margin-top: -40%;
-    margin-bottom: -100px;
     z-index: 1;
+    width: 100%;
 }
 #about-me-bg {
     width: 100%;
