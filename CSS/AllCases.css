@@ -10,17 +10,24 @@ body{
 }
 
 .title {
-    color: white;
-    /* background-color: rgb(12, 92, 146); */
+    color: rgb(0, 2, 102);
+    background-image: linear-gradient(to left, #e6fcff , rgb(218, 233, 255));
     /* padding: 20px; */
-    border-radius: 10px;
+    border-radius: 5px;
+}
+.subtitle-index-text {
+    font-size: medium;
+    text-decoration: none;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
 }
 
 .top {
     margin-top: 50px;
 }
 
-case-card {
+case-card, .case_card {
     height: auto;
     width: 32%;
     min-width: 300px;
@@ -31,8 +38,18 @@ case-card {
     margin-top: 0px;
 }
 
+
+
+case-card:hover {
+    /* transform: scale(1.05);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out; */
+    transition: ease 0.2s;
+    transform: translateY(-5px);
+}
+
 .section-title {
-    color: white;
+    color: black;
     margin-top: 60px;
     margin-bottom: 20px;
     text-align: left;

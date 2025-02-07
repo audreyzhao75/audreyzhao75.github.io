@@ -14,7 +14,7 @@
     float: right;
     display: block;
     /* color: #333; */
-    color: #F3F9FF;
+    color: #818181;
     text-align: center;
     padding: 30px 30px;
     text-decoration: none;
@@ -66,7 +66,7 @@
     color: #0072D9;
 }
 
-#ContactButton {
+/* #ContactButton {
     border-style: none;
     border-radius: 5px;
     padding: 10px 14px;
@@ -74,20 +74,25 @@
     color: #F3F9FF;
     margin: 0%;
     margin-top: -10px;
-}
-#ContactButton:hover {
+} */
+#az-logo-pic:hover {
     /* background-color: #F3F9FF; */
     /* border-color: #0072D9; */
     /* outline: 2px solid black; */
     transition: ease 0.2s;
-    box-shadow: 0px 0px 12px #02BAE9;
+    box-shadow: 0px 0px 12px #e6e6e6;
 }
   
   /* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
+/* .topnav .icon {
     display: none;
-}
+} */
   
+
+
+
+
+
   /* Dropdown container - needed to position the dropdown content */
 /* .dropdown {
     float: left;

@@ -18,6 +18,7 @@ async function init() {
     for (let i = 0; i < data.cards.length; i++) {
         let card = document.createElement("case-card");
         card.data = data.cards[i];
+        card.className = "case_card";
         // find which section to put it in
         if(sectionTitles.includes(data.cards[i].year)) {
             const yearElement = document.getElementById(data.cards[i].year);
@@ -57,3 +58,46 @@ async function fetchCases() {
             });
     });
 }
+
+
+
+
+
+// cases.json
+
+
+// {
+//     "name": "VR Research Intern",
+//     "year": "2022",
+//     "href": "",
+//     "id": "VR-Research-thumb",
+//     "image": "/IndexThumbs/WIP-VR-Research-Intern.png",
+//     "alt": "VR Research Case Study Thumbnail"
+// },
+
+        // {
+        //     "name": "KORG",
+        //     "year": "2023",
+        //     "href": "",
+        //     "id": "KORG-thumb",
+        //     "image": "/IndexThumbs/WIP-KORG.svg",
+        //     "alt": "KORG Case Study Thumbnail"
+        // },
+        // {
+        //     "name": "MaXentric",
+        //     "year": "2023",
+        //     "href": "",
+        //     "id": "MaX-thumb",
+        //     "image": "/IndexThumbs/WIP-MaXentric-Intern.svg",
+        //     "alt": "MaXentric Case Study Thumbnail"
+        // },
+
+
+        // {
+        //     "name": "Artree",
+        //     "year": "2022",
+        //     "href": "",
+        //     "id": "Artree-thumb",
+        //     "image": "/IndexThumbs/WIP-Artree.svg",
+        //     "alt": "Artree Case Study Thumbnail"
+        // }

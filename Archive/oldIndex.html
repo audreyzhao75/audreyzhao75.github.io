@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="description" content="Audrey's Portfolio">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title>Audrey's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/navbar.css">
+    <link rel="stylesheet" href="indexOLD.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="/images/az-logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <div id="nav-placeholder"></div>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $("#nav-placeholder").load("HTML/nav.html");
+        });
+    </script>
+
+    <!-- <div class="top" >
+        <div class="row" id="indexTop">
+            <div class="col-lg-4 col-md-6 text-center colCenter">
+                <img src="/indexImages/circle_pfp.png" alt="A picture of me!" style="width:100%" class="rounded float-left" id="myPic">
+            </div>
+            <div class="col-lg-8 col-md-6 colCenter" id="jumboText">
+                <h1 class="display-4" id="myName">Audrey Zhao</h1>
+                <p id="header-tags">UI/UX Design ⋅ Computer Science</p>
+                <p class="lead">Senior at the University of California, San Diego
+                    pursuing a B.S. in Cognitive Science, Design and Interaction and minoring in Computer Science </p>
+                
+                <div class="row" id="icons-links">
+                    <div class="col">
+                        <a href="https://github.com/audreyzhao75" target="_blank"><img src="indexImages/gitpic.png" id="githubLogo"></a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.linkedin.com/in/audrey-z-756745126/" target="_blank"><img src="/indexImages/linkedinLogo.png" id="liLogo"></a>
+                    </div>
+                    <div class="col">
+                        <a href="mailto: a2zhao@ucsd.edu" target="_blank"><img src="/indexImages/emailIcon.png" id="email"></a>
+                    </div>
+                    <div class="col">
+                        <a href="Resume2021.pdf" target="_blank"><button type="button" class="btn btn-primary" id="resumeLink">Resume</button></a>
+                    </div> -->
+                    <div class="col"></div><div class="col"></div>
+                    <div class="col"></div><div class="col"></div>
+                </div><br>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- jumbotron -->
+    <div class="top jumbotron jumbotron-fluid">
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 text-center">
+                    <img src="/indexImages/circle_pfp.png" alt="A picture of me!" style="width:100%" class="rounded float-left" id="myPic">
+                </div>
+                <div class="col-lg-8 col-md-6 colCenter" id="jumboText">
+                    <h1 class="display-4" id="myName">Audrey Zhao</h1>
+                    <p id="header-tags">UI/UX Design ⋅ Computer Science</p>
+                    <p class="lead">Senior at the University of California, San Diego
+                        pursuing a B.S. in Cognitive Science, Design and Interaction and minoring in Computer Science </p>
+                    
+                    <div class="row" id="icons-links">
+                        <div class="col">
+                            <a href="https://github.com/audreyzhao75" target="_blank"><img src="indexImages/gitpic.png" id="githubLogo"></a>
+                        </div>
+                        <div class="col">
+                            <a href="https://www.linkedin.com/in/audrey-z-756745126/" target="_blank"><img src="/indexImages/linkedinLogo.png" id="liLogo"></a>
+                        </div>
+                        <div class="col">
+                            <a href="mailto: a2zhao@ucsd.edu" target="_blank"><img src="/indexImages/emailIcon.png" id="email"></a>
+                        </div>
+                        <!-- <div class="col">
+                            <a href="Resume2021.pdf" target="_blank"><button type="button" class="btn btn-primary" id="resumeLink">Resume</button></a>
+                        </div> -->
+                        <div class="col"></div><div class="col"></div>
+                        <div class="col"></div><div class="col"></div>
+                    </div><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cards -->
+    <div class="all-cards">
+        <div class="caseSection-title text-switch">
+            <h4 class="text-switch">My top</h4>
+            <h1 id="CS-and-exp">Case studies and work experiences</h1>
+        </div>
+        <a id="seeMore" href="/AllCases.html">View all ></a>
+        
+        <div id="cases-container" class="row">
+            <div class="CaseCard col-lg-6 col-md-6 mb-4">
+                <a href="/caseStudies/WePet.html">
+                    <img id="WePet-thumb" class="card-img-top" src="/IndexThumbs/WePet-thumb.svg" alt="WePet App Case Study Thumbnail"></a>
+
+                <!-- <div class="card h-100" id="WePet-card">
+                    <div class="card-body">
+                        <br>
+                        <h4 class="card-title">WePet App</h4>
+                        <p class="card-text"><mark>Front-End Developer</mark> <mark>Designer</mark></p>
+                        <p>A mobile app that lets users create and find events for pet adoptions, socializations, and more!</p>
+                        <a href="caseStudies/WePet.html" class="btn btn-primary">See Case Study</a>
+                    </div>
+                </div> -->
+            </div>
+            <div class="CaseCard col-lg-6 col-md-6 mb-4">
+                <a href="/caseStudies/HVL-full-design-challenge.html">
+                    <img id="HVLDC-thumb" class="card-img-top" src="/IndexThumbs/Design-challenge-thumb.png" alt="TritonHacks Case Study Thumbnail"></a>
+            </div>
+            <div class="CaseCard col-lg-6 col-md-6 mb-4">
+                <a href="/caseStudies/twitterMisinfo.html">
+                    <img id="Twitter-thumb" class="card-img-top" src="/IndexThumbs/Twitter-Misinfo-Thumb.png" alt="Twitter Misinformation Case Study Thumbnail"></a>
+                    <!-- <h4 class="card-title">Twitter Misinformation</h4>
+                    <p class="card-text"><mark>UX Researcher</mark> <mark>Designer</mark></p>
+                    <p>A prototype that dissuades misinformation and promotes discussion on Twitter</p> -->
+            </div>
+            <div class="CaseCard col-lg-6 col-md-6 mb-4">
+                <a href="/caseStudies/HVL-internship.html">
+                    <img id="HVL-thumb" class="card-img-top" src="/IndexThumbs/HVL-thumb.png" alt="HVL Internship Thumbnail"></a>
+
+                <!-- <div class="card h-100" id="HVL-card"><a href="/caseStudies/HVL-internship.html">
+                    <img id="HVL-thumb" class="card-img-top" src="/IndexThumbs/HVL-Thumb.svg" alt="HVL Internship Thumbnail"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">HVL Internship</h4>
+                        <p class="card-text"><mark>Design Intern</mark> <mark>UX Research</mark></p>
+                        <p>16-week internship where I designed, researched, and aided studio and advisory projects</p>
+                    </div>
+                </div> -->
+            </div>
+            <!-- <div class="CaseCard col-lg-6 col-sm-6 mb-4">
+                <a href="">
+                    <img id="TritonHacks-thumb" class="card-img-top" src="/IndexThumbs/TritonHacks-thumb.svg" alt="TritonHacks Case Study Thumbnail"></a>
+                <a class="" href=""><div class="card h-100" id="TritonHacks-card">
+                    <a href=""><img class="card-img-top" src="" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">TritonHacks</h4>
+                        <p class="card-text tags"><mark>Designer</mark> <mark>Content Creator</mark> <mark>Tutor</mark> <mark>Mentor</mark></p>
+                        <p>Coming Soon</p>
+                    </div>
+                </div></a>
+            </div> -->
+            <!-- <div class="CaseCard col-lg-6 col-sm-6 mb-4">
+                <a href="/caseStudies/Piazza.html">
+                    <img id="Piazza-thumb" class="card-img-top" src="/IndexThumbs/Piazza-thumb.svg" alt="Piazza Case Study Thumbnail"></a>
+                <div class="card h-100" id="Piazza-card">
+                    <div class="card-body">
+                        <br>
+                        <h4 class="card-title">Piazza</h4>
+                        <p class="card-text"><mark>UX Researcher</mark></p>
+                        <p>Redesigning an online forum to be more efficient and aesthetic for students</p>
+                        <a href="caseStudies/Piazza.html" class="btn btn-primary">See Case Study</a>
+                    </div>
+                </div> 
+            </div>-->
+        </div>
+    </div>
+    <div class="row caseSection-title text-center text-switch"><div class="col">
+        <h4 class="text-switch" id="upcoming-title">A sneak peak of some upcoming studies!</h4>
+        <div class="row d-flex justify-content-center" id="upcoming-cases-container"></div>
+    </div></div>
+    <div id="end-tag">
+        <p>This portfolio was coded and designed by me in HTML/CSS/JS and Bootstrap!</p>
+    </div>
+
+
+    <!-- <div class="row allCards text-center">
+        <div class="col"></div>
+        <div class="col-3">
+            <div class="card" id="wepetCase">
+                <div class="row card-img">
+                    <img src="images/corgi.png" class="card-img-top align-self-center mr-3" alt="pic of corgi :)" id="wepetThumb">
+                </div>
+                <div class="card-body">
+                    <h4>WePet</h4>
+                    <p>A mobile app that lets users create and find events for pet adoptions, socializations, and more!</p>
+                </div>
+                <a href="caseStudies/WePet.html" class="btn btn-primary">See Case Study</a>
+            </div>
+            <div class="card" id="earbudCase">
+                <div class="row card-img">
+                    <img src="indexImages/earbudsThumb.png" class="card-img-top align-self-center mr-3" alt="..." id="earbudsThumb">
+                </div>
+                <div class="card-body">
+                    <h4>Wired Earbuds</h4>
+                    <p>Seeking solutions and exploring designs to reduce tangles in wired earbuds</p>
+                </div>
+                <a href="Earbuds.html" class="btn btn-primary">See Case Study</a>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card" id="TwitterMisinfo">
+                <div class="row card-img">
+                    <img src="indexImages/twittLogo.png" class="card-img-top align-self-center mr-3" alt="..." id="twitterTmb">
+                </div>
+                <div class="card-body">
+                    <h4>Twitter</h4>
+                    <p>Making a prototype that dissuades misinformation and promotes discussion on Twitter</p>
+                </div>
+                <a href="/caseStudies/twitterMisinfo.html" class="btn btn-primary">See Case Study</a>
+            </div>
+            <div class="card" id="unfinishedCase">
+                <div class="card-body">
+                    <p class="card-text"><b>Upcoming projects:</b>
+                        <p>- Hackathon for highschoolers</p>
+                        <p>- Designing a video game</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card" id="piazzaCase">
+                <div class="row card-img">
+                    <img src="indexImages/Piazza_logo.svg" preserveAspectRatio="xMidYMin" class="card-img-top align-self-center mr-3" alt="..." id="piazzaThumb">
+                </div>
+                <div class="card-body">
+                    <h4>Piazza</h4>
+                    <p>Redesigning an online forum to be more efficient and aesthetic for students</p>
+                </div>
+                <a href="piazzaCS.html" class="btn btn-primary">See Case Study</a>
+            </div>
+        </div> 
+        <div class="col"></div>
+    </div> -->
+    <script src="JS/caseCards.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
