@@ -313,7 +313,7 @@ body {
 }
 
 #about-me-pic {
-    width: 300px;
+    max-width: 300px;
 }
 
 #index-about-me-text {
