@@ -229,7 +229,8 @@ body {
 
 
 #index-about-me {
-    background-color: #3680CA;
+    /* background-color: #074a8d; */
+    background: linear-gradient(to top, #046dd6, #000000);
     padding-top: 100px;
     padding-bottom: 80px;
     z-index: 2;
@@ -306,4 +307,22 @@ body {
 }
 #about-me-bg {
     width: 100%;
+} */
+
+#index-other-work {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+
+/* #hero-container {
+    background: linear-gradient(to bottom, white, rgb(240, 244, 255));
+    background-size: 300%;
+    animation: flow 15s ease-in-out infinite;
+} */
+
+/* @keyframes flow {
+    0% {background-position: 0 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0 50%;}
 } */
