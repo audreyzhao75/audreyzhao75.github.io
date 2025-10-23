@@ -127,7 +127,7 @@ body {
 } */
 
 
-#myName {
+.gradientChange {
     display: inline-block;
     color: #0986f3;
     background: linear-gradient(to right, #02BAE9 50%, #0986f3 50%);
@@ -153,7 +153,7 @@ body {
     text-decoration: none;
     
   }
-#myName:hover {
+.gradientChange:hover {
     background-position: 0 100%;
 }
 
@@ -229,7 +229,8 @@ body {
 
 
 #index-about-me {
-    background-color: #3680CA;
+    /* background-color: #074a8d; */
+    background: linear-gradient(to top, #046dd6, #000000);
     padding-top: 100px;
     padding-bottom: 80px;
     z-index: 2;
@@ -266,7 +267,7 @@ body {
     background-color: #F6F6F6;
 }
 #journey-map {
-    width: 450px;
+    max-width: 550px;
 }
 .space20Above {
     margin-top: 20px;
@@ -276,10 +277,10 @@ body {
 }
 #index-journey-text {
     color: #444;
-    padding-left: 130px;
+    padding-left: 100px;
+    max-width: 900px;
+    margin-bottom: 100px;
 }
-
-
 
 #scroll-top-section {
     padding: 50px;
@@ -306,4 +307,27 @@ body {
 }
 #about-me-bg {
     width: 100%;
+} */
+
+#index-other-work {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+
+/* #hero-container {
+    background: linear-gradient(to bottom, white, rgb(240, 244, 255));
+    background-size: 300%;
+    animation: flow 15s ease-in-out infinite;
+} */
+
+/* @keyframes flow {
+    0% {background-position: 0 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0 50%;}
+} */
+
+
+/* .starry-bg {
+
 } */

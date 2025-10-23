@@ -26,13 +26,13 @@
         });
     </script>
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="hero-container">
         <div class="py-5">
             <div class="row align-items-center justify-content-center pb-4">
                 <div class="row g-4" style="max-width: 1000px;">
                     <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
                         <div class="">
-                            <h1>Hey! I'm <span id="myName">Audrey Zhao</span></h1>
+                            <h1>Hey! I'm <span class="gradientChange">Audrey Zhao</span></h1>
                             <h4 class="subtitle-index-text">Full-Stack Developer and UI/UX Designer</h4>
 
                             <div id="socials-section">
@@ -91,6 +91,32 @@
         </div>
     </div>
 
+    <div id="index-other-work" class="row align-items-center justify-content-center starry-bg">
+        <div class="row align-items-center justify-content-center">
+            <div class="text-center" style="max-width: 1100px;">
+                <div class="m-5">
+                    <div class="title-index-text" style="color: #FFF;">And while you're here...</div>
+                    <div class="subtitle-index-text">Check out some other work that I've done!</div>
+                    <div class="row align-items-center justify-content-center my-5">
+                        <div class="CaseCard mb-4">
+                            <a href="/caseStudies/TritonHacks.html">
+                                <img class="card-img-top" src="/images/TH-small.png" alt="TritonHacks Widget">
+                            </a>
+                        </div>
+                        <div class="CaseCard mb-4">
+                            <a href="https://ldjam.com/events/ludum-dare/56/the-mech-ants-last-stand">
+                                <img class="card-img-top" src="/images/LD-small.png" alt="TritonHacks Widget">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="m-5">
+                    <div class="title-index-text" style="color: #FFF;">And a preview...</div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
     <div id="index-about-me" class="row align-items-center justify-content-center">
         <div class="row" style="max-width: 1000px">
             <div class="col-lg-6 text-center" id="about-pic-div">
@@ -99,8 +125,8 @@
             <div class="col-lg-6">
                 <div id="index-about-me-text" class="">
                     <h1>About me</h1>
-                    <p class="lead">I’m currently pursuing a Master's degree in <a style="color: rgb(201, 231, 255); text-decoration: none;" href="https://mshci.gatech.edu/">Human-Computer Interaction (HCI)</a> at the Georgia Institute of Technology (Georgia Tech).</p>
-                    <p class="lead">For 3 years prior, I was a Design Engineer at <a style="color: rgb(201, 231, 255); text-decoration: none;" href="https://maxentric.com/">MaXentric Technologies.</a></p>
+                    <p class="lead">I’m currently pursuing a Master's degree in <a style="color: rgb(65, 170, 255); text-decoration: none;" href="https://mshci.gatech.edu/" class="gradientChange">Human-Computer Interaction (HCI)</a> at the Georgia Institute of Technology (Georgia Tech).</p>
+                    <p class="lead">For 3 years prior, I was a Design Engineer at <a style="color: rgb(65, 170, 255); text-decoration: none;" href="https://maxentric.com/" class="gradientChange">MaXentric Technologies.</a></p>
                     <p class="lead">I’m passionate about UI/UX design, software development, and ways in which we can better connect the two.</p>
                     <p class="lead">My main hobbies include figure skating, snowboarding, game development, and playing various musical instruments.</p>
                 </div>
@@ -111,13 +137,15 @@
         <img src="/images/about-me-bg.svg" id="about-me-bg">
     </div> -->
     <div id="index-journey" class="row align-items-center justify-content-center">
-        <div class="row align-items-center justify-content-center" style="max-width: 1300px; padding-top: 30px; padding-bottom: 100px;">
-            <div class="col-lg-4 text-center row align-items-center justify-content-center">
-                <img src="/images/map.png" class="space50Above" id="journey-map">
+        <div class="column align-items-center justify-content-center">
+            <div class="column" style="margin-top: 100px;">
+                <h1 class="text-center">My Journey</h1>
             </div>
-            <div class="col-lg-8 space50Above">
-                <div id="index-journey-text">
-                    <h1>My journey</h1>
+            <div class="text-center row align-items-center justify-content-center">
+                <img src="/images/map.png" id="journey-map">
+            </div>
+            <div class="row align-items-center justify-content-center">
+                <div id="index-journey-text" class="col">
                     <div class="row space50Above">
                         <div class="col-2 text-center"><img src="/images/map-pins/blue-pin.png" class="map-pins"></div>
                         <div class="col-8 vertCenter"><p class="lead">2001 || Born in San Diego</p></div>
@@ -164,7 +192,7 @@
             <button type="button" class="lead" id="scroll-top-btn"><a>Back to top</a></button>
         </div></div>
     </div>
-
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
     <script src="/JS/index.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
 </body>
