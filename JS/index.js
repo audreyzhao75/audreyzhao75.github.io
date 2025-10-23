@@ -14,8 +14,9 @@ $(document).ready(function(){
     }); 
 });
 
-
-
+var starDiv = document.getElementById("starry-bg");
+starDiv.style.background = "rgb(10,200,20)";
+var stage = new createjs.Stage("canvas");
 
 // All Cases
 // var data = {};

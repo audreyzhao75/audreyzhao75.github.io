@@ -127,7 +127,7 @@ body {
 } */
 
 
-#myName {
+.gradientChange {
     display: inline-block;
     color: #0986f3;
     background: linear-gradient(to right, #02BAE9 50%, #0986f3 50%);
@@ -153,7 +153,7 @@ body {
     text-decoration: none;
     
   }
-#myName:hover {
+.gradientChange:hover {
     background-position: 0 100%;
 }
 
@@ -267,7 +267,7 @@ body {
     background-color: #F6F6F6;
 }
 #journey-map {
-    width: 450px;
+    max-width: 550px;
 }
 .space20Above {
     margin-top: 20px;
@@ -277,10 +277,10 @@ body {
 }
 #index-journey-text {
     color: #444;
-    padding-left: 130px;
+    padding-left: 100px;
+    max-width: 900px;
+    margin-bottom: 100px;
 }
-
-
 
 #scroll-top-section {
     padding: 50px;
@@ -325,4 +325,9 @@ body {
     0% {background-position: 0 50%;}
     50% {background-position: 100% 50%;}
     100% {background-position: 0 50%;}
+} */
+
+
+/* .starry-bg {
+
 } */
