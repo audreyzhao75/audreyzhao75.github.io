@@ -13,6 +13,9 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="/images/az-logo.png" type="image/x-icon">
     
+    <!-- Preload critical images for faster loading -->
+    <link rel="preload" as="image" href="/Assets/photos/portfolio-me-pic.png">
+    
     <link rel="stylesheet" href="CSS/index.css"> 
     <title>Audrey Zhao's Portfolio</title>
 </head>
@@ -31,28 +34,14 @@
             <div class="row align-items-center justify-content-center pb-4">
                 <div class="row g-4" style="max-width: 1000px;">
                     <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
-                        <div class="">
+                        <div class="scroll-animation">
                             <h1>Hey! I'm <span class="gradientChange">Audrey Zhao</span></h1>
                             <h4 class="subtitle-index-text">Full-Stack Developer and UI/UX Designer</h4>
-
-                            <div id="socials-section">
-                                <div class="row justify-content-left align-items-center">
-                                    <div class="col-auto">
-                                        <a href="https://github.com/audreyzhao75"><img src="/images/github-white.png" class="socials-icon"></a>
-                                    </div>
-                                    <div class="col-auto">
-                                        <a href="https://www.linkedin.com/in/audreycz/"><img src="/images/linkedin-white.png" class="socials-icon"></a>
-                                    </div>
-                                    <div class="col-auto">
-                                        <a href="mailto: audreyzhao0306@gmail.com" target="_blank" ><img src="/images/email-white.png" class="socials-icon"></a>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center text-center">
-                        <img src="/Assets/photos/portfolio-me-pic.png" alt="A picture of me!" id="myPic-home">
+                    <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center text-center fade-in-animation">
+                        <img src="/Assets/photos/portfolio-me-pic.png" alt="A picture of me!" id="myPic-home" loading="eager" fetchpriority="high">
                     </div>
                 </div>
             </div>
@@ -60,7 +49,7 @@
     </div>
     <div id="index-case-studies">
         <div class="row align-items-center justify-content-center">
-            <div class="text-center" style="max-width: 1100px;">
+            <div class="text-center scroll-animation" style="max-width: 1100px;">
                 <div class="m-5">
                     <div class="title-index-text">Case Studies</div>
                     <div class="subtitle-index-text">Projects exploring user-centered solutions</div>
@@ -94,7 +83,7 @@
     <div id="index-other-work" class="row align-items-center justify-content-center starry-bg">
         <div class="row align-items-center justify-content-center">
             <div class="text-center" style="max-width: 1100px;">
-                <div class="m-5">
+                <div class="m-5 scroll-animation">
                     <div class="title-index-text" style="color: #FFF;">And while you're here...</div>
                     <div class="subtitle-index-text">Check out some other work that I've done!</div>
                     <div class="row align-items-center justify-content-center my-5">
@@ -118,7 +107,7 @@
     </div>
 
     <div id="index-about-me" class="row align-items-center justify-content-center">
-        <div class="row" style="max-width: 1000px">
+        <div class="row scroll-animation" style="max-width: 1000px">
             <div class="col-lg-6 text-center" id="about-pic-div">
                 <img src="/Assets\photos\about-me-pic.png" alt="A picture of me!" class="overlap-pic rounded mx-auto mt-4" id="about-me-pic">
             </div>
@@ -137,7 +126,7 @@
         <img src="/images/about-me-bg.svg" id="about-me-bg">
     </div> -->
     <div id="index-journey" class="row align-items-center justify-content-center">
-        <div class="column align-items-center justify-content-center">
+        <div class="column align-items-center justify-content-center scroll-animation">
             <div class="column" style="margin-top: 100px;">
                 <h1 class="text-center">My Journey</h1>
             </div>
@@ -188,7 +177,21 @@
     </div>
     <div id="scroll-top-section">
         <div class="row"><div class="col text-center vertCenter">
-            <p class="lead">Designed and created with Figma, HTML, CSS, Javascript, and Bootstrap.</p>
+            <!-- <p class="lead" style="font-size: 0.8rem; margin-bottom: 40px;">Designed and created with Figma, HTML, CSS, Javascript, and Bootstrap.</p> -->
+
+            <div id="socials-section">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-auto">
+                        <a href="https://github.com/audreyzhao75"><img src="/images/github-white.png" class="socials-icon"></a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="https://www.linkedin.com/in/audreycz/"><img src="/images/linkedin-white.png" class="socials-icon"></a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="mailto: audreyzhao0306@gmail.com" target="_blank" ><img src="/images/email-white.png" class="socials-icon"></a>
+                    </div>
+                </div>
+            </div>
             <button type="button" class="lead" id="scroll-top-btn"><a>Back to top</a></button>
         </div></div>
     </div>
