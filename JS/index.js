@@ -14,9 +14,69 @@ $(document).ready(function(){
     }); 
 });
 
-var starDiv = document.getElementById("starry-bg");
-starDiv.style.background = "rgb(10,200,20)";
-var stage = new createjs.Stage("canvas");
+const scroll_elems = document.querySelectorAll(".scroll-animation");
+
+const observer = new IntersectionObserver((elems) => {
+    elems.forEach((e) => {
+        if(e.isIntersecting) {
+            e.target.classList.add("scroll-animated");
+        }
+        // else {
+            // e.target.classList.remove("scroll-animated");
+        // }
+    })
+}, {
+    threshold: 0.15,
+    rootMargin: "0px 0px -50px 0px"
+});
+
+for(let i = 0; i < scroll_elems.length; i++) {
+    observer.observe(scroll_elems[i]);
+}
+
+
+const scroll_elems_fade = document.querySelectorAll(".fade-in-animation");
+const observer_fade = new IntersectionObserver((elems) => {
+    elems.forEach((e) => {
+        if(e.isIntersecting) {
+            e.target.classList.add("fade-in-animated");
+        }
+        // else {
+            // e.target.classList.remove("scroll-animated");
+        // }
+    })
+}, {
+    threshold: 0.15,
+    rootMargin: "0px 0px -50px 0px"
+});
+
+for(let i = 0; i < scroll_elems_fade.length; i++) {
+    observer_fade.observe(scroll_elems_fade[i]);
+}
+
+
+// Interactive background for hero section
+// const heroContainer = document.getElementById('hero-container');
+// if (heroContainer) {
+//     heroContainer.addEventListener('mousemove', (e) => {
+//         const rect = heroContainer.getBoundingClientRect();
+//         const x = ((e.clientX - rect.left) / rect.width) * 100;
+//         const y = ((e.clientY - rect.top) / rect.height) * 100;
+        
+//         heroContainer.style.setProperty('--mouse-x', x + '%');
+//         heroContainer.style.setProperty('--mouse-y', y + '%');
+//     });
+    
+//     // Reset position when mouse leaves
+//     heroContainer.addEventListener('mouseleave', () => {
+//         heroContainer.style.setProperty('--mouse-x', '50%');
+//         heroContainer.style.setProperty('--mouse-y', '50%');
+//     });
+// }
+
+// var starDiv = document.getElementById("starry-bg");
+// starDiv.style.background = "rgb(10,200,20)";
+// var stage = new createjs.Stage("canvas");
 
 // All Cases
 // var data = {};
