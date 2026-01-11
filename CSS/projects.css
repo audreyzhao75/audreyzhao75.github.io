@@ -37,6 +37,7 @@ li, b, ol {
 
 .section{
     padding: 8%;
+    margin: 0px;
 }
 
 .colCenter {
@@ -805,6 +806,265 @@ li, b, ol {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
 }
+
+
+/* --------------------------------------------------------- */
+/* ====================== VC REVEAL =============-========== */
+/* --------------------------------------------------------- */
+
+.VC-sp40 {
+    margin-top: 40px;
+}
+.VC-sp20 {
+    margin-top: 20px;
+}
+
+.VC-intro-fields {
+    font-size: large;
+}
+.VC-fields-title {
+    font-weight: bold;
+    color: #e30000;
+    font-size: x-large;
+    margin: 0px;
+
+    font-family: "Ropa Sans", sans-serif;
+    font-weight: 200 900;
+}
+.VC-emph-title {
+    font-weight: bold;
+    font-size: large;
+    color: #e30000;
+    /* margin-top: 30px; */
+}
+.VC-images {
+    min-height: 150px;
+    max-height: 200px;
+    border-radius: 10px;
+    width: auto
+}
+.rd-border-10 {
+    border-radius: 10px;
+}
+.VC-box-shadow-img {
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+.VC-img-subtitle {
+    color: #6e6e6e;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#VC-1 {
+    background-color: #fff0f0;
+    /* margin: 0px; */
+    /* padding-bottom: -300px; */
+    padding: 20px 8% 80px 8%;
+}
+
+#VC-transition-intro {
+    height: 40px;
+    background-image: linear-gradient(#fff0f0, #fff);
+}
+
+#VC-2 {
+    background-color: #fff;
+    padding-top: 80px;
+    margin-bottom: -20px;
+}
+
+#VC-3 {
+    background-color: #FCF7E9;
+    padding: 50px 20%;
+}
+
+#VC-4, #VC-8 {
+    background-color: #fff;
+}
+
+#VC-5, #VC-7 {
+    background-color: #FCF7E9;
+}
+
+#VC-6 {
+    background-color: #fff;
+    padding-top: 60px;
+}
+
+
+@media (min-width: 1000px) {
+    .max-content-section {
+        max-width: 1700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+.VC-section-number {
+    /* background-image: linear-gradient(to right, #c92fde, #0072D9); */
+    /* color: transparent;  */
+    color: #de2f2f;
+    /* background-clip: text; */
+    font-size: 30;
+    margin: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 0px;
+    background-color: #fff0f0;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.VC-section-title {
+    font-family: "Ropa Sans", sans-serif;
+    font-weight: 200 900;
+    font-style: normal;
+    font-size: xx-large;
+    padding-top: 10px;
+}
+
+.VC-div-title {
+    font-family: "Ropa Sans", sans-serif;
+    font-weight: 200 900;
+    font-style: normal;
+    font-size: xx-large;
+    padding-top: 10px;
+}
+
+.VC-card-1 {
+    border-radius: 20px;
+    border-color: #dedede;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    /* margin: 10px; */
+}
+
+.light-red-bg {
+    background-color: #fff0f0;
+    border-radius: 12px;
+    padding: 20px 20px 20px 20px;
+}
+
+#dd-title {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px;
+    padding: 0px;
+    /* text-align: center; */
+}
+.VC-findings-title {
+    font-size: 30px;
+}
+.VC-findings-title b {
+    font-size: 30px;
+    color: #de2f2f;
+}
+
+.dd-stat-title {
+    font-weight: 600;
+    font-size: 48px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+.dd-stat-subtitle {
+    font-weight: normal;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.VC-findings-subtitle {
+    margin: 0px;
+    font-family: "Ropa Sans", sans-serif;
+    font-size: 20px;
+    color: #525252;
+}
+
+.VC-subtitle-gray {
+    /* font-family: "Ropa Sans", sans-serif; */
+    font-size: 14px;
+    color: #525252;
+}
+
+.VC-PS-text {
+    font-family: "Ropa Sans", sans-serif;
+    font-size: 36px;
+    color: #de2f2f;
+    margin: 0px;
+}
+
+.VC-method-section-titles {
+    font-weight: bold;
+    margin: 0px;
+    font-family: "Ropa Sans", sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.VC-method-list li, .VC-method-list b {
+    font-size: large;
+    margin: 0px;
+}
+
+.VC-link {
+    text-decoration: none;
+    color: #de2f2f;
+    font-size: large;
+}
+
+.VC-link:hover {
+    color: #5e0202;
+}
+
+.VC-link:hover:after {
+    /* text-decoration: underline; */
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+@media (max-width: 992px) {
+    .VC-margin-x-10p {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+.VC-DI-num {    
+    font-family: "Ropa Sans", sans-serif;
+    font-size: 30px;
+    color: #de2f2f;
+    margin: 0px;
+    padding: 0px;
+    margin-top: -5px;
+}
+
+.VC-proto-img {
+    max-height: 300px;
+    width: auto;
+}
+
+.VC-finding-row {
+    background-color: #fff0f0;
+    padding: 40px;
+}
+
+.VC-finding-text {
+    color: black;
+    font-size: large;
+}
+
+.VC-DI-border {
+    border-color: #dfc57c;
+    border-width: 2px; 
+    padding-top: 30px;
+}
+
+/* Other */
 
 .test {
     background-color: red;
