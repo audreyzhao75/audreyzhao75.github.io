@@ -1,6 +1,14 @@
 {
     "cards": [
         {
+            "name": "Verizon Connect Reveal",
+            "year": "2025",
+            "href": "/caseStudies/VCReveal.html",
+            "id": "VC-thumb",
+            "image": "/IndexThumbs/VC-Thumb.svg",
+            "alt": "Verizon Connect Reveal 2025 Case Study Thumbnail"
+        },
+        {
             "name": "TritonHacks 2021",
             "year": "2022",
             "href": "/caseStudies/TritonHacks.html",
